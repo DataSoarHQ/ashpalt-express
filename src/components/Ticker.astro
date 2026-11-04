@@ -1,0 +1,15 @@
+---
+// Scrolling announcement bar. Two identical groups; the track slides one group's width and loops.
+import { ticker } from '../data/site';
+---
+<div class="ticker" aria-label="Announcements">
+  <div class="ticker__track">
+    {[0, 1].map((copy) => (
+      <ul class="ticker__group" aria-hidden={copy ? 'true' : undefined}>
+        {[0, 1].flatMap(() => ticker).map((t) => (
+          <li><a href={t.href} tabindex={copy ? -1 : undefined}>{t.label}</a><span class="ticker__sep" aria-hidden="true"></span></li>
+        ))}
+      </ul>
+    ))}
+  </div>
+</div>

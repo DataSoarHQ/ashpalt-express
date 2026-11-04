@@ -1,0 +1,67 @@
+---
+import { Image } from 'astro:assets';
+import Base from '../layouts/Base.astro';
+import PageHead from '../components/PageHead.astro';
+import Cta from '../components/Cta.astro';
+import { photo } from '../lib/img';
+import { gallery, galleryCats } from '../data/site';
+const crumbs = [{ name: 'Gallery', href: '/gallery/' }];
+---
+<Base title="Our Work: Asphalt Paving Gallery" description="Completed driveways, parking lots and resurfacing projects by Asphalt Express LLC across Southeast Michigan." crumbs={crumbs}>
+  <PageHead title="Our Work" sub="Completed driveways, parking lots and resurfacing projects across Southeast Michigan." banner="landing" crumbs={crumbs} />
+  <section class="section">
+    <div class="wrap">
+      <div class="head">
+        <span class="eyebrow">Project Gallery</span>
+        <h2>Recent Asphalt Projects</h2>
+        <p class="lede">{gallery.length} jobs completed by our crews. Filter by type, or tap any photo to see it full size.</p>
+      </div>
+      <div class="filters" role="group" aria-label="Filter projects">
+        <button type="button" aria-pressed="true" data-filter="">All Projects</button>
+        {galleryCats.map((c) => <button type="button" aria-pressed="false" data-filter={c.key}>{c.label}</button>)}
+      </div>
+      <ul class="gallery">
+        {gallery.map((g) => {
+          const img = photo(g.src);
+          return (
+            <li data-cat={g.cat}>
+              <button type="button" data-full={img.src} data-caption={g.alt}>
+                <Image src={img} alt={g.alt} widths={[360, 600]} sizes="(max-width: 600px) 92vw, 18rem" />
+                <span>{g.alt}</span>
+              </button>
+            </li>
+          );
+        })}
+      </ul>
+    </div>
+  </section>
+  <dialog class="lightbox" data-lightbox>
+    <form method="dialog"><button class="btn btn--yellow" type="submit">Close</button></form>
+    <img alt="" />
+    <p></p>
+  </dialog>
+  <script is:inline>
+    (function () {
+      var items = document.querySelectorAll('.gallery li');
+      var buttons = document.querySelectorAll('[data-filter]');
+      buttons.forEach(function (btn) {
+        btn.addEventListener('click', function () {
+          buttons.forEach(function (b) { b.setAttribute('aria-pressed', String(b === btn)); });
+          items.forEach(function (li) { li.hidden = !!btn.dataset.filter && li.dataset.cat !== btn.dataset.filter; });
+        });
+      });
+      var box = document.querySelector('[data-lightbox]');
+      var img = box.querySelector('img');
+      var cap = box.querySelector('p');
+      document.querySelectorAll('[data-full]').forEach(function (b) {
+        b.addEventListener('click', function () {
+          var thumb = b.querySelector('img');
+          img.src = thumb.currentSrc || b.dataset.full; img.alt = b.dataset.caption; cap.textContent = b.dataset.caption;
+          box.showModal();
+        });
+      });
+      box.addEventListener('click', function (e) { if (e.target === box) box.close(); });
+    })();
+  </script>
+  <Cta title="Want Results Like These on Your Property?" text="Contact Asphalt Express LLC for a free estimate and we will show you exactly what we would do with your driveway or parking lot." />
+</Base>

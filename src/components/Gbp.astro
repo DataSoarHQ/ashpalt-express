@@ -1,0 +1,26 @@
+---
+import { business as b } from '../data/site';
+---
+<section class="section section--dark" id="find-us">
+  <div class="wrap split">
+    <div>
+      <span class="eyebrow">Find Us on Google</span>
+      <h2>Visit Our Google Business Profile</h2>
+      <p class="lede">We are a real, local, family-run business in Highland, Michigan. Find us on Google Maps, check our reviews and get directions.</p>
+    </div>
+    <div class="gbp">
+      <span class="gbp__tag">Google Business Profile</span>
+      <h3>Asphalt Express</h3>
+      <ul class="rows">
+        <li><span>Address</span><span>{b.street}, {b.city}, {b.region} {b.zip}</span></li>
+        <li><span>Phone</span><a href={b.phoneHref}>{b.phoneDisplay}</a></li>
+        <li><span>Email</span><a href={`mailto:${b.email}`}>{b.email}</a></li>
+        <li><span>Service Area</span><span>Oakland, Livingston, Wayne &amp; Macomb Counties</span></li>
+      </ul>
+      <div class="actions">
+        <a class="btn btn--dark" href={b.mapsUrl} rel="noopener">Get Directions</a>
+        <a class="btn btn--ghost" href={b.writeReviewUrl} rel="noopener">Write a Review</a>
+      </div>
+    </div>
+  </div>
+</section>

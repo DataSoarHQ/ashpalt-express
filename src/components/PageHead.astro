@@ -1,0 +1,16 @@
+---
+import { Image } from 'astro:assets';
+import { photo } from '../lib/img';
+const { title, sub, banner, crumbs = [] } = Astro.props;
+---
+<section class="pagehead">
+  <Image class="pagehead__bg" src={photo(banner)} alt="" widths={[600, 1200]} sizes="100vw" loading="eager" />
+  <div class="wrap">
+    <ul class="crumbs">
+      <li><a href="/">Home</a></li>
+      {crumbs.map((c, i) => <li>{i === crumbs.length - 1 ? <span aria-current="page">{c.name}</span> : <a href={c.href}>{c.name}</a>}</li>)}
+    </ul>
+    <h1>{title}</h1>
+    {sub && <p class="pagehead__sub">{sub}</p>}
+  </div>
+</section>

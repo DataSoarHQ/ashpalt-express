@@ -1,0 +1,24 @@
+---
+// Renders text as slot-machine reels: digits spin, everything else stays put.
+// Without JS (or with reduced motion) the reels rest on the final value.
+const { text } = Astro.props;
+let reel = 0;
+const digits = '0123456789'.split('');
+const parts = [...String(text)].map((ch) => {
+  if (!/\d/.test(ch)) return { ch };
+  const i = reel++;
+  const at = digits.indexOf(ch);
+  // Each reel to the right spins a little longer, so they stop left to right.
+  const len = 10 * (2 + i) + 1;
+  const strip = Array.from({ length: len + 1 }, (_, k) => digits[(at + k - (len - 1) + 990) % 10]);
+  return { ch, strip, n: len - 1, i };
+});
+---
+<span class="slots">
+  <span class="sr-only">{text}</span>
+  <span aria-hidden="true">
+    {parts.map((p) => p.strip
+      ? <span class="reel" style={`--n:${p.n};--i:${p.i}`}><span class="reel__strip">{p.strip.map((s) => <span>{s}</span>)}</span></span>
+      : <span>{p.ch}</span>)}
+  </span>
+</span>

@@ -1,0 +1,43 @@
+---
+import { Image } from 'astro:assets';
+import Base from '../layouts/Base.astro';
+import PageHead from '../components/PageHead.astro';
+import TownChecker from '../components/TownChecker.astro';
+import CountyLists from '../components/CountyLists.astro';
+import Cta from '../components/Cta.astro';
+import { photo } from '../lib/img';
+import { business as b, services, towns, href } from '../data/site';
+const crumbs = [{ name: 'Service Areas', href: '/service-areas/' }];
+---
+<Base title="Service Areas" description={`Asphalt Express LLC serves ${towns.length} communities across Oakland, Livingston, Wayne and Macomb Counties in Southeast Michigan. Free estimates: ${b.phoneDisplay}.`} crumbs={crumbs}>
+  <PageHead title="Service Areas" sub={`${towns.length} communities across Oakland, Livingston, Wayne and Macomb Counties, Michigan.`} banner="about_banner_img" crumbs={crumbs} />
+  <section class="section">
+    <div class="wrap split split--top">
+      <div>
+        <span class="eyebrow">Where We Work</span>
+        <h2>Serving {towns.length} Communities Across Southeast Michigan</h2>
+        <div class="prose" style="margin-top:1.25rem">
+          <p>Asphalt Express LLC is based in Highland, Michigan, and we have spent over {b.years} years working across this region. Our crews cover Oakland, Livingston, Wayne and Macomb Counties, delivering the same quality of workmanship to residential driveways and commercial parking lots alike.</p>
+          <p>Because we stay local, we know the ground conditions, the freeze-thaw cycles and the drainage problems that come with paving in Southeast Michigan. That is knowledge you cannot get from a contractor passing through.</p>
+        </div>
+        <h3 style="margin-top:2rem">Every service is available across all areas</h3>
+        <ul class="svc-links">{services.map((s) => <li><a class="link" href={href(s.slug)}>{s.name}</a></li>)}</ul>
+      </div>
+      <div>
+        <TownChecker />
+        <Image class="photo" style="margin-top:1.25rem" src={photo('commercial_0')} alt="Asphalt Express LLC working across Southeast Michigan" widths={[500, 900]} sizes="(max-width: 900px) 92vw, 46vw" />
+      </div>
+    </div>
+  </section>
+  <section class="section section--alt">
+    <div class="wrap">
+      <div class="head">
+        <span class="eyebrow">By County</span>
+        <h2>Communities We Serve</h2>
+        <p class="lede">The full list of towns and cities covered by Asphalt Express LLC, grouped by county.</p>
+      </div>
+      <CountyLists counts />
+    </div>
+  </section>
+  <Cta title={`Serving These Communities for Over ${b.years} Years`} text="Wherever you are in Oakland, Livingston, Wayne or Macomb County, we will come out, look at the job and give you a free, honest estimate." />
+</Base>

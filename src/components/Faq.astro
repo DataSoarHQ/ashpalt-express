@@ -1,0 +1,11 @@
+---
+const { items } = Astro.props;
+---
+<div class="faq">
+  {items.map((f: { q: string; a: string }, i: number) => (
+    <details open={i === 0}>
+      <summary>{f.q}</summary>
+      <div class="faq__a" set:html={f.a.startsWith('<') ? f.a : `<p>${f.a}</p>`} />
+    </details>
+  ))}
+</div>

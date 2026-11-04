@@ -1,0 +1,150 @@
+---
+// One service-area page. Heading order follows the SEO review: H1 town, H2 sections and
+// each service, no skipped levels, and selling points / step titles as plain text.
+import { Image } from 'astro:assets';
+import Base from '../layouts/Base.astro';
+import PageHead from './PageHead.astro';
+import Faq from './Faq.astro';
+import QuoteForm from './QuoteForm.astro';
+import Cta from './Cta.astro';
+import { photo } from '../lib/img';
+import { business as b, towns, href, type Town } from '../data/site';
+
+const { town: t } = Astro.props as { town: Town };
+const nearby = t.nearby.slugs.map((s) => towns.find((x) => x.slug === s)!).filter(Boolean);
+const crumbs = [{ name: 'Service Areas', href: '/service-areas/' }, { name: t.name, href: href(t.slug) }];
+---
+<Base title={t.title} description={t.description} crumbs={crumbs} faqs={t.faq.items} service={{ name: `Asphalt paving in ${t.name}, MI`, description: t.sub, areaServed: `${t.name}, MI` }}>
+  <PageHead title={`Asphalt Paving in ${t.name}, MI`} sub={t.sub} banner={t.banner} crumbs={crumbs} />
+
+  <section class="section">
+    <div class="wrap split">
+      <div>
+        <span class="eyebrow">{t.county} County · {t.zips.join(', ')}</span>
+        <p class="sub-head" style="font-weight:800;line-height:1.15;letter-spacing:-.02em">{t.intro.h2}</p>
+        <div class="prose" style="margin-top:1.25rem">{t.intro.paras.map((p) => <p set:html={p} />)}</div>
+        <ul class="checks">{t.intro.checks.map((c) => <li>{c}</li>)}</ul>
+        <div class="actions" style="margin-top:0">
+          <a class="btn btn--yellow" href="#estimate">Get a Free {t.name} Estimate</a>
+          <a class="btn btn--ghost" href={b.phoneHref}>{b.phoneDisplay}</a>
+        </div>
+      </div>
+      <div class="stack">
+        <Image src={photo(t.intro.imgs[0].src)} alt={t.intro.imgs[0].alt} widths={[500, 900]} sizes="(max-width: 900px) 80vw, 40vw" />
+        <Image src={photo(t.intro.imgs[1].src)} alt={t.intro.imgs[1].alt} widths={[300, 600]} sizes="(max-width: 900px) 42vw, 20vw" />
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--alt">
+    <div class="wrap">
+      <div class="head head--center">
+        <span class="eyebrow">Our Services</span>
+        <h2>{t.services.h2}</h2>
+        <p class="lede">{t.services.p}</p>
+      </div>
+      <div class="tiles">
+        {t.services.items.map((s) => (
+          <div class="tile">
+            <h2 class="tile__title"><a href={href(s.slug)}>{s.name}</a></h2>
+            <p>{s.text}</p>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--dark">
+    <div class="wrap">
+      <div class="split split--top">
+        <div>
+          <span class="eyebrow">Local Conditions</span>
+          <h2>{t.local.h2}</h2>
+        </div>
+        <div class="prose">{t.local.paras.map((p) => <p set:html={p} />)}</div>
+      </div>
+      <div style="margin-top:clamp(3rem,6vw,4.5rem)">
+        <span class="eyebrow">How We Work</span>
+        <h2 style="margin-bottom:2rem">{t.steps.h2}</h2>
+        <ol class="steps">{t.steps.items.map((s) => <li><p class="steps__title">{s.h}</p><p>{s.p}</p></li>)}</ol>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap">
+      <div class="head head--center">
+        <span class="eyebrow">Why Asphalt Express</span>
+        <h2>{t.why.h2}</h2>
+      </div>
+      <div class="tiles">{t.why.items.map((w) => <div class="tile"><p class="tile__title">{w.h}</p><p>{w.p}</p></div>)}</div>
+    </div>
+  </section>
+
+  <section class="section section--alt">
+    <div class="wrap split">
+      <div>
+        <span class="eyebrow">Where We Work in {t.name}</span>
+        <h2>{t.where.h2}</h2>
+        <div class="prose" style="margin-top:1.25rem">{t.where.paras.map((p) => <p set:html={p} />)}</div>
+        <div class="actions">
+          <a class="btn btn--dark" href="/service-areas/">All {towns.length} Service Areas</a>
+          <a class="btn btn--ghost" href="/services/">All Services</a>
+        </div>
+      </div>
+      <Image class="photo" src={photo(t.where.img.src)} alt={t.where.img.alt} widths={[500, 900]} sizes="(max-width: 900px) 92vw, 46vw" />
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap">
+      <div class="head head--center">
+        <span class="eyebrow">FAQs</span>
+        <h2>{t.faq.h2}</h2>
+        <p class="lede">{t.faq.p}</p>
+      </div>
+      <Faq items={t.faq.items} />
+    </div>
+  </section>
+
+  <section class="section section--alt">
+    <div class="wrap">
+      <div class="head head--center">
+        <span class="eyebrow">Nearby</span>
+        <h2>{t.nearby.h2}</h2>
+        <p class="lede">{t.nearby.p}</p>
+      </div>
+      <div class="near">
+        {nearby.map((n) => (
+          <a class="card" href={href(n.slug)}>
+            <Image src={photo(n.intro.imgs[0].src)} alt={`Asphalt paving in ${n.name}, MI`} widths={[400, 700]} sizes="(max-width: 600px) 92vw, (max-width: 1040px) 46vw, 18rem" />
+            <div class="card__body">
+              <h3>Asphalt Paving in {n.name}, MI</h3>
+              <p>{n.county} County · same owner-supervised crew.</p>
+              <span class="card__more">See {n.name}</span>
+            </div>
+          </a>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="quote">
+    <div class="wrap split split--top">
+      <div>
+        <span class="eyebrow">Free Estimate</span>
+        <h2>{t.quote.h2}</h2>
+        <p class="lede">{t.quote.p}</p>
+        <ul class="rows" style="margin-top:1.75rem">
+          <li><span>Phone</span><a href={b.phoneHref}>{b.phoneDisplay}</a></li>
+          <li><span>Email</span><a href={`mailto:${b.email}`}>{b.email}</a></li>
+          <li><span>Based in</span><span>{b.street}, {b.city}, {b.region} {b.zip}</span></li>
+          <li><span>Serving</span><span>{t.name} and {towns.length - 1} more communities</span></li>
+        </ul>
+      </div>
+      <QuoteForm town={`${t.name}, MI`} />
+    </div>
+  </section>
+
+  <Cta title={t.cta.h2} text={t.cta.p} />
+</Base>

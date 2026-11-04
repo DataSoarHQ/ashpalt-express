@@ -1,0 +1,80 @@
+---
+import { Image } from 'astro:assets';
+import Base from '../layouts/Base.astro';
+import PageHead from './PageHead.astro';
+import Faq from './Faq.astro';
+import Cta from './Cta.astro';
+import { photo } from '../lib/img';
+import { business as b, towns, href, type Service } from '../data/site';
+
+const { service: s } = Astro.props as { service: Service };
+const crumbs = [{ name: 'Services', href: '/services/' }, { name: s.name, href: href(s.slug) }];
+---
+<Base title={s.title} description={s.description} crumbs={crumbs} faqs={s.faq.items} service={{ name: s.name, description: s.why.paras[0] }}>
+  <PageHead title={s.name} sub={s.tagline} banner={s.banner} crumbs={crumbs} />
+
+  <section class="section" style="padding-block:clamp(2.5rem,5vw,3.5rem)">
+    <div class="wrap features">
+      {s.features.map((f) => <div class="tile"><p class="tile__title">{f.h}</p><p>{f.p}</p></div>)}
+    </div>
+  </section>
+
+  <section class="section section--alt">
+    <div class="wrap split">
+      <div>
+        <span class="eyebrow">{s.why.eyebrow}</span>
+        <h2>{s.why.h2}</h2>
+        <div class="prose" style="margin-top:1.25rem">{s.why.paras.map((p) => <p>{p}</p>)}</div>
+        <h3 class="benefits-title">{s.why.benefitsTitle}</h3>
+        <ul class="checks" style="margin-top:.75rem">{s.why.benefits.map((x) => <li>{x}</li>)}</ul>
+      </div>
+      <div class="stack">
+        <Image src={photo(s.why.imgs[0].src)} alt={s.why.imgs[0].alt} widths={[500, 800]} sizes="(max-width: 900px) 80vw, 40vw" />
+        <Image src={photo(s.why.imgs[1].src)} alt={s.why.imgs[1].alt} widths={[300, 600]} sizes="(max-width: 900px) 42vw, 20vw" />
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--dark">
+    <div class="wrap">
+      <div class="head">
+        <span class="eyebrow">How We Work</span>
+        <h2>{s.process.h2}</h2>
+        <p class="lede">{s.process.p}</p>
+      </div>
+      <ol class="steps steps--4">{s.process.steps.map((x) => <li><p class="steps__title">{x.h}</p><p>{x.p}</p></li>)}</ol>
+      {s.featured && (
+        <div class="featured" style="margin-top:3rem">
+          <span class="eyebrow" style="color:var(--ink)">Featured Service</span>
+          <h3>{s.featured.h3}</h3>
+          <p>{s.featured.p}</p>
+          <ul class="checks">{s.featured.checks.map((x) => <li>{x}</li>)}</ul>
+          <div class="actions">
+            <a class="btn btn--dark" href="/contact/">Get a Free Estimate</a>
+            <a class="btn btn--ghost" href={b.phoneHref}>{b.phoneDisplay}</a>
+          </div>
+        </div>
+      )}
+    </div>
+  </section>
+
+  <section class="section section--alt" style="padding-block:clamp(2.5rem,5vw,3.5rem)">
+    <div class="wrap band">
+      <p><strong>{s.name} across Southeast Michigan.</strong> We cover {towns.length} communities throughout Oakland, Livingston, Wayne &amp; Macomb Counties, from Highland and Brighton to Troy, Novi and Sterling Heights.</p>
+      <a class="btn btn--dark" href="/service-areas/">See all {towns.length} towns</a>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap">
+      <div class="head head--center">
+        <span class="eyebrow">FAQs</span>
+        <h2>{s.faq.h2}</h2>
+        <p class="lede">Common questions about {s.name.toLowerCase()} from Asphalt Express LLC.</p>
+      </div>
+      <Faq items={s.faq.items} />
+    </div>
+  </section>
+
+  <Cta title={s.cta.h2} text={s.cta.p} />
+</Base>

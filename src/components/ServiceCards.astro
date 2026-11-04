@@ -1,0 +1,20 @@
+---
+import { Image } from 'astro:assets';
+import { photo } from '../lib/img';
+import { services, serviceCards, href } from '../data/site';
+// Service names are H2s on the home page (per the SEO review) and H3s elsewhere.
+const { tag: T = 'h3' } = Astro.props;
+---
+<div class="cards">
+  {services.map((s, i) => (
+    <a class="card" href={href(s.slug)}>
+      <Image src={photo(serviceCards[s.slug].img)} alt={`${s.name} in Southeast Michigan`} widths={[400, 700]} sizes="(max-width: 600px) 92vw, (max-width: 1040px) 46vw, 18rem" />
+      <span class="card__num">{String(i + 1).padStart(2, '0')}</span>
+      <div class="card__body">
+        <T class="card__title">{s.name}</T>
+        <p>{serviceCards[s.slug].text}</p>
+        <span class="card__more">Explore service</span>
+      </div>
+    </a>
+  ))}
+</div>

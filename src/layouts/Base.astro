@@ -1,0 +1,178 @@
+---
+import '@fontsource-variable/inter';
+import '../styles/global.css';
+import { Image } from 'astro:assets';
+import logo from '../assets/logo-dark.webp';
+import { business as b, nav, services, towns, href } from '../data/site';
+
+interface Props {
+  title: string;
+  description: string;
+  noindex?: boolean;
+  crumbs?: { name: string; href: string }[];
+  faqs?: { q: string; a: string }[];
+  service?: { name: string; description: string; areaServed?: string };
+}
+const { title, description, noindex = false, crumbs = [], faqs = [], service } = Astro.props;
+const path = Astro.url.pathname;
+const canonical = new URL(path, b.url).href;
+const pageTitle = path === '/' ? title : `${title} | ${b.name}`;
+const ogImage = `${b.url}/og.jpg`;
+const businessId = `${b.url}/#business`;
+const strip = (html: string) => html.replace(/<[^>]+>/g, '').trim();
+
+const graph: Record<string, unknown>[] = [
+  {
+    '@type': ['GeneralContractor', 'LocalBusiness'],
+    '@id': businessId,
+    name: b.legalName,
+    alternateName: b.name,
+    url: `${b.url}/`,
+    telephone: '+1-248-889-5357',
+    email: b.email,
+    image: ogImage,
+    logo: `${b.url}/logo_light.png`,
+    priceRange: '$$',
+    description: `Family-owned asphalt paving contractor serving Southeast Michigan for over ${b.years} years. Asphalt paving, commercial parking lots, sealcoating, resurfacing, millings, removal and replacement, and parking lot repair.`,
+    address: { '@type': 'PostalAddress', streetAddress: b.street, addressLocality: b.city, addressRegion: b.region, postalCode: b.zip, addressCountry: 'US' },
+    geo: { '@type': 'GeoCoordinates', latitude: b.geo.lat, longitude: b.geo.lng },
+    hasMap: b.mapsUrl,
+    sameAs: [b.mapsUrl, b.facebook],
+    identifier: { '@type': 'PropertyValue', propertyID: 'GooglePlaceId', value: b.placeId },
+    aggregateRating: { '@type': 'AggregateRating', ratingValue: b.rating, reviewCount: b.reviewCount },
+    paymentAccepted: b.payments.join(', '),
+    areaServed: towns.map((t) => ({ '@type': 'City', name: `${t.name}, MI` })),
+  },
+  { '@type': 'WebSite', '@id': `${b.url}/#website`, url: `${b.url}/`, name: b.legalName, publisher: { '@id': businessId } },
+  { '@type': 'WebPage', '@id': `${canonical}#webpage`, url: canonical, name: pageTitle, description, isPartOf: { '@id': `${b.url}/#website` }, about: { '@id': businessId } },
+];
+if (crumbs.length) {
+  const trail = [{ name: 'Home', href: '/' }, ...crumbs];
+  graph.push({ '@type': 'BreadcrumbList', itemListElement: trail.map((c, i) => ({ '@type': 'ListItem', position: i + 1, name: c.name, item: new URL(c.href, b.url).href })) });
+}
+if (faqs.length) {
+  graph.push({ '@type': 'FAQPage', mainEntity: faqs.map((f) => ({ '@type': 'Question', name: f.q, acceptedAnswer: { '@type': 'Answer', text: strip(f.a) } })) });
+}
+if (service) {
+  graph.push({ '@type': 'Service', name: service.name, description: service.description, provider: { '@id': businessId }, areaServed: service.areaServed ?? 'Southeast Michigan' });
+}
+const schema = { '@context': 'https://schema.org', '@graph': graph };
+const current = (h: string) => (path.startsWith(h) || (h === '/services/' && services.some((s) => path === href(s.slug))) ? 'page' : undefined);
+---
+<!doctype html>
+<html lang="en-US">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>{pageTitle}</title>
+  <meta name="description" content={description} />
+  <meta name="robots" content={noindex ? 'noindex, follow' : 'index, follow, max-image-preview:large'} />
+  {!noindex && <link rel="canonical" href={canonical} />}
+  <meta name="geo.region" content="US-MI" />
+  <meta name="geo.placename" content="Highland, Michigan" />
+  <link rel="icon" href="/favicon.ico" sizes="any" />
+  <link rel="icon" href="/favicon-32.png" type="image/png" sizes="32x32" />
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+  <meta name="theme-color" content="#0B0D10" />
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content={b.legalName} />
+  <meta property="og:title" content={pageTitle} />
+  <meta property="og:description" content={description} />
+  <meta property="og:url" content={canonical} />
+  <meta property="og:image" content={ogImage} />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-6VGFMJ15CZ"></script>
+  <script is:inline>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-6VGFMJ15CZ');</script>
+  <script type="application/ld+json" set:html={JSON.stringify(schema)} />
+</head>
+<body>
+  <a class="skip" href="#main">Skip to main content</a>
+  <div class="topbar">
+    <div class="wrap topbar__in">
+      <ul>
+        <li>Free Estimates</li>
+        <li>Owner Supervised On Every Jobsite</li>
+        <li>{b.years}+ Years in Southeast Michigan</li>
+      </ul>
+      <div class="topbar__right">
+        <a href={b.facebook} rel="noopener">Facebook</a>
+        <a href="/contact/">Free Estimate in 24h</a>
+      </div>
+    </div>
+  </div>
+  <header class="header">
+    <div class="wrap header__in">
+      <a class="brand" href="/" aria-label={`${b.legalName} home`}>
+        <Image src={logo} alt={b.legalName} width={272} loading="eager" />
+      </a>
+      <nav class="nav" aria-label="Main">
+        <div class="nav__drop">
+          <a href="/services/" aria-current={current('/services/')}>Services</a>
+          <div class="nav__menu">
+            {services.map((s) => <a href={href(s.slug)}>{s.name}</a>)}
+          </div>
+        </div>
+        {nav.slice(1).map((n) => <a href={n.href} aria-current={current(n.href)}>{n.label}</a>)}
+      </nav>
+      <div class="header__cta">
+        <a class="btn btn--ghost" href={b.phoneHref}>{b.phoneDisplay}</a>
+        <a class="btn btn--yellow" href="/contact/">Free Estimate</a>
+      </div>
+      <details class="menu">
+        <summary>Menu</summary>
+        <nav aria-label="Mobile">
+          <a href="/">Home</a>
+          <a href="/services/">Services</a>
+          {services.map((s) => <a class="sub" href={href(s.slug)}>{s.name}</a>)}
+          {nav.slice(1).map((n) => <a href={n.href}>{n.label}</a>)}
+        </nav>
+      </details>
+    </div>
+  </header>
+
+  <main id="main"><slot /></main>
+
+  <footer class="footer">
+    <div class="wrap footer__grid">
+      <div>
+        <Image class="footer__logo" src={logo} alt={b.legalName} width={288} />
+        <p>A family-owned asphalt paving company serving Southeast Michigan for over {b.years} years, built on hard work and honesty. Owner supervised on every jobsite.</p>
+        <ul class="pay" aria-label="Payment accepted">{b.payments.map((p) => <li>{p}</li>)}</ul>
+      </div>
+      <div>
+        <p class="footer__title">Information</p>
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/about/">About Us</a></li>
+          <li><a href="/services/">Services</a></li>
+          <li><a href="/service-areas/">Service Areas</a></li>
+          <li><a href="/gallery/">Gallery</a></li>
+          <li><a href="/reviews/">Reviews</a></li>
+          <li><a href="/contact/">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <p class="footer__title">Our Services</p>
+        <ul>{services.map((s) => <li><a href={href(s.slug)}>{s.name}</a></li>)}</ul>
+      </div>
+      <div>
+        <p class="footer__title">Contact</p>
+        <address>{b.street}, {b.city}, {b.region} {b.zip}</address>
+        <p>Serving Oakland, Livingston, Wayne &amp; Macomb Counties</p>
+        <p><a href={b.phoneHref}>{b.phoneDisplay}</a></p>
+        <p><a href={`mailto:${b.email}`}>{b.email}</a></p>
+        <p><a href={b.mapsUrl} rel="noopener">View us on Google</a></p>
+        <p><a href={b.facebook} rel="noopener">Follow us on Facebook</a></p>
+      </div>
+    </div>
+    <p class="wrap footer__legal">© 2025–{new Date().getFullYear()} {b.legalName}. All rights reserved.</p>
+  </footer>
+
+  <div class="callbar">
+    <a class="btn btn--yellow" href={b.phoneHref}>Call now</a>
+    <a class="btn btn--ghost" style="color:#fff" href="/contact/">Free estimate</a>
+  </div>
+</body>
+</html>

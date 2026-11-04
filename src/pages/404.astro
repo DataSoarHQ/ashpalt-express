@@ -1,0 +1,17 @@
+---
+import Base from '../layouts/Base.astro';
+import PageHead from '../components/PageHead.astro';
+import Cta from '../components/Cta.astro';
+---
+<Base title="Page Not Found" description="The page you were looking for could not be found." noindex>
+  <PageHead title="That page took a detour" sub="The page you were looking for has moved or does not exist. Try one of these instead." banner="paving_banner" />
+  <section class="section">
+    <div class="wrap actions" style="margin-top:0">
+      <a class="btn btn--yellow" href="/">Home</a>
+      <a class="btn btn--ghost" href="/services/">Services</a>
+      <a class="btn btn--ghost" href="/service-areas/">Service Areas</a>
+      <a class="btn btn--ghost" href="/contact/">Free Estimate</a>
+    </div>
+  </section>
+  <Cta />
+</Base>

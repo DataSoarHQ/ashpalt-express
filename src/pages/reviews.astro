@@ -1,0 +1,26 @@
+---
+import Base from '../layouts/Base.astro';
+import PageHead from '../components/PageHead.astro';
+import Reviews from '../components/Reviews.astro';
+import Cta from '../components/Cta.astro';
+import { business as b } from '../data/site';
+const crumbs = [{ name: 'Reviews', href: '/reviews/' }];
+---
+<Base title="Customer Reviews" description={`Asphalt Express LLC is rated ${b.rating} on Google across ${b.reviewCount} reviews. Read what Southeast Michigan customers say about our paving work.`} crumbs={crumbs}>
+  <PageHead title="Customer Reviews" sub={`Rated ${b.rating} on Google across ${b.reviewCount} reviews. Here is what customers say.`} banner="about_banner_img" crumbs={crumbs} />
+  <Reviews all={false} intro="Most of our work comes from referrals and repeat customers. The full set of reviews lives on our Google Business Profile. Here is a selection." />
+  <section class="section">
+    <div class="wrap split">
+      <div>
+        <span class="eyebrow">Share Your Experience</span>
+        <h2>Leave Us a Review on Google</h2>
+        <p class="lede">If we have worked on your driveway or parking lot, a short review helps other local property owners find an honest contractor. The link opens the review box directly.</p>
+      </div>
+      <div class="actions">
+        <a class="btn btn--yellow" href={b.writeReviewUrl} rel="noopener">Write a Review on Google</a>
+        <a class="btn btn--ghost" href={b.mapsUrl} rel="noopener">View Our Google Profile</a>
+      </div>
+    </div>
+  </section>
+  <Cta />
+</Base>

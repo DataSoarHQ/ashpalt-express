@@ -1,0 +1,24 @@
+---
+import Base from '../layouts/Base.astro';
+import PageHead from '../components/PageHead.astro';
+import ServiceCards from '../components/ServiceCards.astro';
+import Areas from '../components/Areas.astro';
+import Cta from '../components/Cta.astro';
+import { services } from '../data/site';
+const crumbs = [{ name: 'Services', href: '/services/' }];
+---
+<Base title="Asphalt Services in Southeast Michigan" description="Asphalt paving, commercial parking lots, sealcoating, resurfacing, residential paving, millings, removal and replacement, and parking lot repair across Southeast Michigan." crumbs={crumbs}>
+  <PageHead title="Our Asphalt Services" sub={`${services.length === 8 ? 'Eight' : services.length} services covering everything from a single residential driveway to a full commercial parking lot.`} banner="paving_banner" crumbs={crumbs} />
+  <section class="section">
+    <div class="wrap">
+      <div class="head head--center">
+        <span class="eyebrow">What We Do</span>
+        <h2>Complete Asphalt Services, One Contractor</h2>
+        <p class="lede">Whether you need a new surface installed, an old one restored or an existing one protected, we handle it in-house with the owner supervising the crew.</p>
+      </div>
+      <ServiceCards tag="h3" />
+    </div>
+  </section>
+  <Areas />
+  <Cta />
+</Base>

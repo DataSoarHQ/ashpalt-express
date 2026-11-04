@@ -1,0 +1,19 @@
+---
+import { business as b } from '../data/site';
+const {
+  title = 'Keep Your Property Looking Its Best',
+  text = `Need asphalt paving, a commercial parking lot repaired, sealcoating or resurfacing? Contact Asphalt Express LLC today for your free estimate and put ${b.years} years of experience to work.`,
+} = Astro.props;
+---
+<section class="cta">
+  <div class="wrap cta__in">
+    <div>
+      <h2>{title}</h2>
+      <p>{text}</p>
+    </div>
+    <div class="actions">
+      <a class="btn btn--dark" href={b.phoneHref}>{b.phoneDisplay}</a>
+      <a class="btn btn--ghost" href="/contact/">Free Estimate</a>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,32 @@
+---
+import Slots from './Slots.astro';
+import { stats } from '../data/site';
+---
+<section class="stats" aria-label="Asphalt Express at a glance">
+  <ul class="wrap" data-stats>
+    {stats.map((s) => <li><strong><Slots text={s.value} />{s.suffix}</strong><span class="label">{s.label}</span></li>)}
+  </ul>
+</section>
+<script is:inline>
+  (function () {
+    var list = document.querySelector('[data-stats]');
+    if (!list || matchMedia('(prefers-reduced-motion: reduce)').matches || !('IntersectionObserver' in window)) return;
+    list.classList.add('slots-armed');
+    function spin(el) {
+      el.classList.remove('is-spinning', 'is-landed');
+      void el.offsetWidth;
+      el.classList.add('is-spinning');
+      var reels = el.querySelectorAll('.reel');
+      var last = reels[reels.length - 1];
+      if (last) last.addEventListener('animationend', function () { el.classList.add('is-landed'); }, { once: true });
+    }
+    // Roll the numbers when the stats bar scrolls into view.
+    var io = new IntersectionObserver(function (es) {
+      if (!es[0].isIntersecting) return;
+      io.disconnect();
+      list.querySelectorAll('li').forEach(function (li, i) { setTimeout(function () { spin(li); }, i * 180); });
+    }, { threshold: 0.5 });
+    io.observe(list);
+    list.addEventListener('click', function (e) { var li = e.target.closest('li'); if (li) spin(li); });
+  })();
+</script>

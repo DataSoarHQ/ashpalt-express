@@ -1,0 +1,30 @@
+---
+import Base from '../layouts/Base.astro';
+import PageHead from '../components/PageHead.astro';
+import QuoteForm from '../components/QuoteForm.astro';
+import Gbp from '../components/Gbp.astro';
+import Cta from '../components/Cta.astro';
+import { business as b, towns } from '../data/site';
+const crumbs = [{ name: 'Contact', href: '/contact/' }];
+---
+<Base title="Contact Us for a Free Estimate" description={`Call Asphalt Express LLC at ${b.phoneDisplay} or request a free asphalt paving estimate online. Based in Highland, MI, serving ${towns.length} communities in Southeast Michigan.`} crumbs={crumbs}>
+  <PageHead title="Contact Us" sub="Free estimates on every service. Tell us about the job and we will come and look at it." banner="commercial_banner" crumbs={crumbs} />
+  <section class="section">
+    <div class="wrap split split--top">
+      <div>
+        <span class="eyebrow">We’re Here To Help</span>
+        <h2>Get In Touch</h2>
+        <p class="lede">Have a question about our asphalt services, or need a free estimate for paving, a commercial parking lot, sealcoating, resurfacing or repair? Fill out the form or reach us directly. We keep short turnaround times on appointments.</p>
+        <ul class="rows" style="margin-top:1.75rem">
+          <li><span>Phone</span><a href={b.phoneHref}>{b.phoneDisplay}</a></li>
+          <li><span>Email</span><a href={`mailto:${b.email}`}>{b.email}</a></li>
+          <li><span>Business Address</span><span>{b.street}, {b.city}, {b.region} {b.zip}</span></li>
+          <li><span>Service Areas</span><span>{towns.length} communities across Oakland, Livingston, Wayne &amp; Macomb Counties. <a href="/service-areas/">See the full list</a></span></li>
+        </ul>
+      </div>
+      <QuoteForm />
+    </div>
+  </section>
+  <Gbp />
+  <Cta title="Prefer to Just Call?" text="Speak to us directly and we will get an estimate booked in. Free estimates on every service, with no obligation." />
+</Base>

@@ -1,0 +1,69 @@
+---
+// Free estimate form. Posts to /api/quote, which emails the company inbox only.
+import { business as b, services } from '../data/site';
+const { town = '' } = Astro.props;
+const found = ['Google Search', 'Google Maps', 'Referral from a friend', 'Saw our crew working', 'Repeat customer', 'Other'];
+---
+<div class="formcard" id="estimate">
+  <h3>Request Your Free Estimate</h3>
+  <form class="form" data-quote-form novalidate>
+    <div class="field"><label for="q-name">Name <span class="req">*</span></label><input id="q-name" name="name" type="text" autocomplete="name" required /></div>
+    <div class="field"><label for="q-phone">Phone <span class="req">*</span></label><input id="q-phone" name="phone" type="tel" autocomplete="tel" required /></div>
+    <div class="field"><label for="q-email">Email <span class="req">*</span></label><input id="q-email" name="email" type="email" autocomplete="email" required /></div>
+    <div class="field">
+      <label for="q-service">Service Needed</label>
+      <select id="q-service" name="service">
+        <option value="">Select a service</option>
+        {services.map((s) => <option>{s.name}</option>)}
+        <option>Other / Not sure</option>
+      </select>
+    </div>
+    <div class="field"><label for="q-city">Your Town / City</label><input id="q-city" name="city" type="text" autocomplete="address-level2" value={town} /></div>
+    <div class="field">
+      <label for="q-found">How Did You Find Us</label>
+      <select id="q-found" name="found"><option value="">Select an option</option>{found.map((f) => <option>{f}</option>)}</select>
+    </div>
+    <div class="field field--full"><label for="q-message">Message</label><textarea id="q-message" name="message" rows="5" placeholder="Driveway or lot size, what it needs, best time to reach you"></textarea></div>
+    <div class="hp" aria-hidden="true"><label>Leave this empty <input name="website" type="text" tabindex="-1" autocomplete="off" /></label></div>
+    <div class="field--full">
+      <button class="btn btn--yellow" type="submit">Submit Message Now</button>
+      <p class="form__status" role="status" data-quote-status></p>
+      <p class="form__foot">We reply to every inquiry. Prefer to talk? Call <a href={b.phoneHref}>{b.phoneDisplay}</a>.</p>
+    </div>
+  </form>
+</div>
+<script is:inline define:vars={{ phone: b.phoneDisplay }}>
+  (function () {
+    var form = document.querySelector('[data-quote-form]');
+    var status = form.querySelector('[data-quote-status]');
+    var button = form.querySelector('button[type=submit]');
+    var fallback = 'Your request was not sent. Please call ' + phone + ' and we will take it from there.';
+    form.addEventListener('submit', function (e) {
+      e.preventDefault();
+      status.className = 'form__status';
+      var data = Object.fromEntries(new FormData(form));
+      data.page = location.pathname;
+      if (!data.name.trim() || data.phone.replace(/\D/g, '').length < 10 || !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(data.email.trim())) {
+        status.textContent = 'Enter your name, a 10-digit phone number and your email so we can reach you.';
+        status.classList.add('is-error');
+        return;
+      }
+      button.disabled = true;
+      status.textContent = 'Sending your request';
+      fetch('/api/quote', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(data) })
+        .then(function (r) { return r.json().catch(function () { return {}; }).then(function (j) { return { ok: r.ok, code: r.status, j: j }; }); })
+        .then(function (res) {
+          if (res.ok) {
+            form.reset();
+            status.textContent = 'Thank you. Your request was sent and we will be in touch shortly.';
+            status.classList.add('is-ok');
+          } else {
+            status.textContent = res.code === 400 && res.j.error ? res.j.error : fallback;
+            status.classList.add('is-error');
+          }
+        })
+        .catch(function () { status.textContent = fallback; status.classList.add('is-error'); })
+        .finally(function () { button.disabled = false; });
+    });
+  })();
+</script>

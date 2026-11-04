@@ -1,0 +1,45 @@
+---
+// "Do we cover your town?" Highlights matches in the county lists on the page and links to the town page.
+import { business as b, towns, href } from '../data/site';
+const list = towns.map((t) => ({ n: t.name, h: href(t.slug), c: t.county }));
+---
+<div class="checker towns" data-towns>
+  <h3 class="checker__title"><label for="town-q">Do we cover your town?</label></h3>
+  <p style="color:var(--muted-d)">Type your town or city and we will tell you straight away.</p>
+  <form class="towns__form" data-town-form>
+    <input id="town-q" type="text" autocomplete="address-level2" placeholder="e.g. Milford" data-town-input />
+    <button class="btn btn--yellow" type="submit">Check</button>
+  </form>
+  <p class="towns__answer" role="status" data-town-answer></p>
+  <div class="towns__try">Try: {['Highland', 'Novi', 'Troy', 'Brighton'].map((t) => <button type="button" data-try={t}>{t}</button>)}</div>
+</div>
+<script is:inline define:vars={{ list, phone: b.phoneDisplay, tel: b.phoneHref }}>
+  (function () {
+    var box = document.querySelector('[data-towns]');
+    var input = box.querySelector('[data-town-input]');
+    var answer = box.querySelector('[data-town-answer]');
+    var items = Array.prototype.slice.call(document.querySelectorAll('[data-town]'));
+    var norm = function (s) { return s.toLowerCase().replace(/,.*$/, '').replace(/\b(mi|michigan|twp|township)\b/g, '').replace(/[^a-z ]/g, '').trim(); };
+    function check(live) {
+      var q = norm(input.value);
+      items.forEach(function (li) { li.classList.toggle('is-hit', !!q && norm(li.dataset.town).indexOf(q) === 0); });
+      answer.textContent = '';
+      if (!q) return;
+      var hits = list.filter(function (t) { return norm(t.n).indexOf(q) === 0; });
+      var exact = list.filter(function (t) { return norm(t.n) === q; })[0];
+      if (exact || hits.length === 1) {
+        var t = exact || hits[0], a = document.createElement('a');
+        a.href = t.h; a.textContent = 'See ' + t.n + ' paving';
+        answer.append('Yes, we cover ' + t.n + ' (' + t.c + ' County). ', a);
+      } else if (hits.length) {
+        answer.textContent = 'Yes: ' + hits.map(function (t) { return t.n; }).join(', ') + '.';
+      } else if (!live) {
+        var c = document.createElement('a'); c.href = tel; c.textContent = phone;
+        answer.append('That town is not on our list yet, but call ', c, ' and ask. We may still be able to help.');
+      }
+    }
+    input.addEventListener('input', function () { check(true); });
+    box.querySelector('[data-town-form]').addEventListener('submit', function (e) { e.preventDefault(); check(false); });
+    box.querySelectorAll('[data-try]').forEach(function (btn) { btn.addEventListener('click', function () { input.value = btn.dataset.try; check(false); }); });
+  })();
+</script>

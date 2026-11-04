@@ -1,0 +1,38 @@
+---
+import { business as b, reviews } from '../data/site';
+const {
+  intro = 'We pride ourselves on the work and on how we treat people. Here is what our customers say about working with Asphalt Express LLC.',
+  all = true,
+} = Astro.props;
+---
+<section class="section section--alt">
+  <div class="wrap">
+    <div class="head">
+      <span class="eyebrow">Customer Reviews</span>
+      <h2>What Our Customers Say</h2>
+      <p class="lede">{intro}</p>
+    </div>
+    <div class="reviews__grid">
+      <div class="reviews__score">
+        <p class="score">{b.rating}</p>
+        <p class="stars" aria-label={`Rated ${b.rating} out of 5`}>★★★★★</p>
+        <p class="muted">{b.reviewCount} Google reviews · <a href={b.reviewsUrl} rel="noopener">read them all</a></p>
+        <div class="actions">
+          {all ? <a class="btn btn--dark" href="/reviews/">Read All {b.reviewCount} Reviews</a> : <a class="btn btn--dark" href={b.reviewsUrl} rel="noopener">Read All {b.reviewCount} Reviews on Google</a>}
+          <a class="link" href={b.writeReviewUrl} rel="noopener">Write a Review on Google</a>
+        </div>
+      </div>
+      <ul class="reviews__list">
+        {reviews.map((r) => (
+          <li>
+            <div>
+              <span class="stars" aria-label="5 stars">★★★★★</span>
+              <blockquote>“{r.text}”</blockquote>
+            </div>
+            <p class="who"><span class="who__av" aria-hidden="true">{r.name[0]}</span><span><strong>{r.name}</strong>{r.tag}</span></p>
+          </li>
+        ))}
+      </ul>
+    </div>
+  </div>
+</section>

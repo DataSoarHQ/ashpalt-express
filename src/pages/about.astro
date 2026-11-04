@@ -1,0 +1,60 @@
+---
+import { Image } from 'astro:assets';
+import Base from '../layouts/Base.astro';
+import PageHead from '../components/PageHead.astro';
+import Areas from '../components/Areas.astro';
+import Cta from '../components/Cta.astro';
+import { photo } from '../lib/img';
+import { business as b } from '../data/site';
+
+const values = [
+  { h: 'Family Owned and Operated', p: 'We are a family business, and that shows up in how we treat customers and how we treat the work. Debbie and Angelo run this company personally.' },
+  { h: 'Honesty Over the Upsell', p: 'If your surface can be resurfaced rather than replaced, we will tell you. If sealcoating can wait another year, we will say so. Straight answers, every time.' },
+  { h: 'Owner On Every Jobsite', p: 'Angelo supervises the crews personally. That single fact is why our standard has stayed the same for three decades.' },
+  { h: 'Budget-Aware Recommendations', p: 'Our team gives you a recommendation for the project while keeping your budget in mind, then lets you make the call without pressure.' },
+];
+const crumbs = [{ name: 'About Us', href: '/about/' }];
+---
+<Base title="About Asphalt Express LLC" description={`Family-owned asphalt paving company in Highland, MI, serving Southeast Michigan for over ${b.years} years. Owner supervised on every jobsite.`} crumbs={crumbs}>
+  <PageHead title="About Asphalt Express LLC" sub={`A family business built on hard work and honesty, paving Southeast Michigan for over ${b.years} years.`} banner="about_banner_img" crumbs={crumbs} />
+  <section class="section">
+    <div class="wrap split">
+      <div>
+        <span class="eyebrow">Our Story</span>
+        <h2>Built on Hard Work and Honesty</h2>
+        <div class="prose" style="margin-top:1.25rem">
+          <p>At Asphalt Express LLC we are a family-owned and operated company, built over more than {b.years} years on hard work and honesty, knowing that the customer is the backbone of our business. We have been the chosen residential and commercial asphalt company across Southeast Michigan, and we have built a solid reputation over the years doing exactly that.</p>
+          <p>We provide free estimates on all of our services and keep short turnaround times when we make appointments with our customers. Our professional team members come out and give you our recommendation for your project while keeping your budget in mind. The owner is supervising on every jobsite.</p>
+          <p>We specialize in residential driveways and commercial parking lots, and we stand behind every job 100%.</p>
+        </div>
+        <div class="actions">
+          <a class="btn btn--yellow" href="/contact/">Get a Free Estimate</a>
+          <a class="btn btn--ghost" href="/gallery/">See Our Work</a>
+        </div>
+      </div>
+      <div class="stack">
+        <Image src={photo('about_img_0')} alt="Asphalt Express LLC family-owned paving business in Michigan" widths={[500, 800]} sizes="(max-width: 900px) 80vw, 40vw" />
+        <Image src={photo('residential_0')} alt="Residential driveway paved by Asphalt Express LLC" widths={[300, 600]} sizes="(max-width: 900px) 42vw, 20vw" />
+      </div>
+    </div>
+  </section>
+  <section class="section section--dark">
+    <div class="wrap">
+      <div class="head head--center">
+        <span class="eyebrow">What We Stand For</span>
+        <h2>How We Do Business</h2>
+        <p class="lede">Four things have not changed in over {b.years} years, and they are the reason most of our work comes from referrals.</p>
+      </div>
+      <div class="tiles">{values.map((v) => <div class="tile"><p class="tile__title">{v.h}</p><p>{v.p}</p></div>)}</div>
+    </div>
+  </section>
+  <section class="section section--alt">
+    <div class="wrap quote-block">
+      <span class="eyebrow">In Our Words</span>
+      <blockquote>“Asphalt Express LLC has been serving Michigan for over {b.years} years with quality paving and unbeatable service. We stand behind every job 100% with our commitment to excellence. If you are looking for top-tier asphalt services, look at Asphalt Express. We specialize in residential driveways and commercial parking lots.”</blockquote>
+      <p>Angelo, Owner, Asphalt Express LLC</p>
+    </div>
+  </section>
+  <Areas />
+  <Cta title="Keep Your Property Looking Its Best With Us Today" text="Ready for professional asphalt services? Contact Asphalt Express LLC today for a free estimate and we will keep your driveways and parking lots looking their absolute best." />
+</Base>

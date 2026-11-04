@@ -1,0 +1,120 @@
+---
+import { Image } from 'astro:assets';
+import Base from '../layouts/Base.astro';
+import Ticker from '../components/Ticker.astro';
+import Stats from '../components/Stats.astro';
+import ServiceCards from '../components/ServiceCards.astro';
+import Areas from '../components/Areas.astro';
+import Reviews from '../components/Reviews.astro';
+import Gbp from '../components/Gbp.astro';
+import QuoteForm from '../components/QuoteForm.astro';
+import Cta from '../components/Cta.astro';
+import { photo } from '../lib/img';
+import { business as b, towns } from '../data/site';
+
+const why = [
+  { h: 'Owner Supervised On Every Jobsite', p: 'Angelo is on site, not in an office. That is how standards stay consistent from the first estimate to the final cleanup.' },
+  { h: `Family Owned for Over ${b.years} Years`, p: 'Built on hard work and honesty, knowing the customer is the backbone of the business. Most of our work comes from referrals.' },
+  { h: 'Free, Honest Estimates', p: 'We come out, look at the job and give you our real recommendation while keeping your budget in mind. No pressure, no surprises.' },
+  { h: 'Residential and Commercial', p: 'From a single driveway to a full commercial parking lot, the same crew and the same standard of workmanship.' },
+];
+---
+<Base title="Asphalt Paving Contractor in SE Michigan | Asphalt Express" description={`Family-owned asphalt paving contractor serving SE Michigan for ${b.years}+ years. Paving, sealcoating, resurfacing, parking lots. Free estimates: ${b.phoneDisplay}.`}>
+  <section class="hero">
+    <div class="wrap hero__in">
+      <div>
+        <span class="eyebrow">Quality Paving &amp; Unbeatable Service</span>
+        <h1>Michigan’s Trusted Asphalt Paving Contractor</h1>
+        <p class="hero__lead">Over {b.years} years of asphalt paving, commercial parking lots, sealcoating, resurfacing and parking lot repair across Southeast Michigan. Family owned, owner supervised on every jobsite, and free estimates on every service.</p>
+        <ul class="checks">
+          <li>Free Estimates</li>
+          <li>Residential &amp; Commercial</li>
+          <li>Short Turnaround Times</li>
+        </ul>
+        <div class="actions">
+          <a class="btn btn--yellow" href="#estimate">Get Your Free Estimate</a>
+          <a class="btn btn--ghost" href={b.phoneHref}>{b.phoneDisplay}</a>
+        </div>
+      </div>
+      <div class="hero__art">
+        <Image src={photo('hero_img1')} alt="Asphalt Express paver laying a fresh asphalt driveway in Southeast Michigan" widths={[480, 800, 1200]} sizes="(max-width: 900px) 92vw, 46vw" loading="eager" fetchpriority="high" />
+        <Image class="hero__inset" src={photo('hero_img2')} alt="Asphalt Express crew laying hot mix asphalt" widths={[300, 500]} sizes="(max-width: 900px) 34vw, 20vw" loading="eager" />
+        <p class="hero__badge"><span class="stars" aria-hidden="true">★★★★★</span><strong>{b.rating} on Google</strong>{b.reviewCount} customer reviews</p>
+      </div>
+    </div>
+  </section>
+
+  <Ticker />
+  <Stats />
+
+  <section class="section">
+    <div class="wrap">
+      <div class="head head--center">
+        <span class="eyebrow">Our Services</span>
+        <h2>Professional Asphalt Services</h2>
+        <p class="lede">Comprehensive asphalt services that keep driveways and parking lots in the condition you want them. Every job is handled with the same expertise and personal attention, so your surfaces stay durable, attractive and long-lasting.</p>
+      </div>
+      <ServiceCards tag="h2" />
+    </div>
+  </section>
+
+  <section class="section section--alt">
+    <div class="wrap split">
+      <div>
+        <span class="eyebrow">About Us</span>
+        <h3 class="sub-head">A Family Business Built on Hard Work and Honesty</h3>
+        <div class="prose" style="margin-top:1.25rem">
+          <p>At Asphalt Express LLC we are a family-owned and operated company, built over more than {b.years} years on hard work and honesty, knowing that the customer is the backbone of the business. We have been the chosen residential and commercial asphalt company across this region, and we have built a solid reputation doing it.</p>
+          <p>We provide free estimates on all of our services and keep short turnaround times when we make appointments. A professional team member will come out and give you our honest recommendation for your project while keeping your budget in mind.</p>
+        </div>
+        <ul class="checks">
+          <li>Owner supervised on every jobsite</li>
+          <li>Free estimates on all services</li>
+          <li>Short turnaround times on appointments</li>
+          <li>We stand behind every job 100%</li>
+        </ul>
+        <a class="btn btn--dark" href="/about/">More About Us</a>
+      </div>
+      <div class="stack">
+        <Image src={photo('about_img_0')} alt="Asphalt Express LLC team at work on a Michigan driveway" widths={[500, 800]} sizes="(max-width: 900px) 80vw, 40vw" />
+        <Image src={photo('port_17')} alt="Completed asphalt paving project" widths={[300, 600]} sizes="(max-width: 900px) 42vw, 20vw" />
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap">
+      <div class="head head--center">
+        <span class="eyebrow">Why Asphalt Express</span>
+        <h3 class="sub-head">Why Property Owners Keep Calling Us Back</h3>
+        <p class="lede">Thirty years in one region means our reputation is the business. Here is what you actually get when you hire us.</p>
+      </div>
+      <div class="tiles">
+        {why.map((w) => <div class="tile"><p class="tile__title">{w.h}</p><p>{w.p}</p></div>)}
+      </div>
+    </div>
+  </section>
+
+  <Areas />
+  <Reviews />
+  <Gbp />
+
+  <section class="section section--alt" id="quote">
+    <div class="wrap split split--top">
+      <div>
+        <span class="eyebrow">Free Estimate</span>
+        <h2>Get Your Free Asphalt Estimate</h2>
+        <p class="lede">Tell us about the driveway or lot and we will come out and give you an honest, no-obligation estimate. We keep short turnaround times on appointments.</p>
+        <ul class="rows" style="margin-top:1.75rem">
+          <li><span>Phone</span><a href={b.phoneHref}>{b.phoneDisplay}</a></li>
+          <li><span>Email</span><a href={`mailto:${b.email}`}>{b.email}</a></li>
+          <li><span>Based in</span><span>{b.street}, {b.city}, {b.region} {b.zip}</span></li>
+          <li><span>Serving</span><span>{towns.length} communities in Southeast Michigan</span></li>
+        </ul>
+      </div>
+      <QuoteForm />
+    </div>
+  </section>
+
+  <Cta text={`Need asphalt paving, a commercial parking lot repaired, sealcoating or resurfacing? Contact Asphalt Express LLC today for your free estimate and put ${b.years} years of experience to work.`} />
+</Base>

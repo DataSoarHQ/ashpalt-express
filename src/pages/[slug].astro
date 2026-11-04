@@ -1,0 +1,16 @@
+---
+// Town pages (/novi-mi/) and service pages (/asphalt-paving/) both live at the site root,
+// matching the original site's web addresses.
+import TownPage from '../components/TownPage.astro';
+import ServicePage from '../components/ServicePage.astro';
+import { towns, services } from '../data/site';
+
+export function getStaticPaths() {
+  return [
+    ...towns.map((town) => ({ params: { slug: town.slug }, props: { town } })),
+    ...services.map((service) => ({ params: { slug: service.slug }, props: { service } })),
+  ];
+}
+const { town, service } = Astro.props;
+---
+{town ? <TownPage town={town} /> : <ServicePage service={service} />}
