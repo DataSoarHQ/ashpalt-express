@@ -1,0 +1,826 @@
+[
+ {
+  "slug": "asphalt-paving",
+  "title": "Asphalt Paving in SE Michigan",
+  "description": "Asphalt paving in SE Michigan for driveways, parking lots and private roads. 30+ years, owner supervised. Free estimates: (248) 889-5357.",
+  "name": "Asphalt Paving",
+  "tagline": "Quality Materials • Expert Installation • Durable Results",
+  "banner": "paving_banner",
+  "features": [
+   {
+    "h": "Quality Materials",
+    "p": "We use only the highest quality asphalt materials and proven installation techniques so your new surface is durable, attractive and long-lasting."
+   },
+   {
+    "h": "Expert Installation",
+    "p": "Our experienced crew handles preparation, grading and compaction correctly, which is what determines how the surface performs years down the road."
+   }
+  ],
+  "why": {
+   "eyebrow": "Asphalt Paving",
+   "h2": "Why Professional Asphalt Paving is Essential",
+   "paras": [
+    "At Asphalt Express LLC we understand what professional asphalt paving does for a property’s value and day-to-day function. Our installation process makes sure your new surface is properly prepared, graded and compacted for maximum durability. With over 30 years of experience, we have refined our paving process to deliver the same result every time."
+   ],
+   "benefitsTitle": "Benefits of Professional Asphalt Paving",
+   "benefits": [
+    "Increases property value and curb appeal",
+    "Provides a smooth, durable surface",
+    "Resistant to weather and traffic",
+    "Low maintenance requirements",
+    "Professional appearance and functionality"
+   ],
+   "imgs": [
+    {
+     "src": "paving_0",
+     "alt": "Asphalt Paving by Asphalt Express LLC"
+    },
+    {
+     "src": "paving_1",
+     "alt": "Asphalt Paving project detail"
+    }
+   ]
+  },
+  "process": {
+   "h2": "Our Asphalt Paving Process",
+   "p": "A clear, repeatable process is what separates a surface that lasts from one that fails early. Here is exactly how we approach the job.",
+   "steps": [
+    {
+     "h": "Site preparation and excavation",
+     "p": "We clear the area and excavate to the correct depth for the intended load."
+    },
+    {
+     "h": "Base preparation and grading",
+     "p": "A properly compacted aggregate base is graded for drainage before any asphalt is laid."
+    },
+    {
+     "h": "Asphalt installation and compaction",
+     "p": "Hot mix is placed at the right temperature and compacted to spec while workable."
+    },
+    {
+     "h": "Final grading and cleanup",
+     "p": "Edges are finished, transitions are blended and the site is left clean."
+    }
+   ]
+  },
+  "featured": {
+   "h3": "Professional Asphalt Paving Service",
+   "p": "Our asphalt paving service covers preparation through to finishing so your new surface is built to last. Quality materials and professional installation for driveways, parking lots and private roads.",
+   "checks": [
+    "Quality asphalt materials and expert installation",
+    "Proper site preparation and grading",
+    "Professional compaction and finishing"
+   ]
+  },
+  "faq": {
+   "h2": "Asphalt Paving FAQs",
+   "items": [
+    {
+     "q": "How long does asphalt paving take?",
+     "a": "Typically 1 to 3 days depending on the size of the project and the weather. We work efficiently while making sure preparation and installation are done properly."
+    },
+    {
+     "q": "How long does new asphalt last?",
+     "a": "With proper installation and maintenance, new asphalt lasts 15 to 20 years or more. Regular sealcoating extends that considerably."
+    },
+    {
+     "q": "Do you provide free estimates?",
+     "a": "Yes. Every estimate is free. A team member comes out, looks at the site and gives you our honest recommendation for the project while keeping your budget in mind."
+    },
+    {
+     "q": "What is your satisfaction guarantee?",
+     "a": "We stand behind every job 100%. The owner is on site supervising every jobsite, which is how we have kept our standards consistent for over 30 years."
+    },
+    {
+     "q": "Do you work in all weather conditions?",
+     "a": "We schedule around optimal weather. Proper temperature and dry conditions are essential for asphalt to bond and cure correctly, so we will move a date rather than compromise the result."
+    }
+   ]
+  },
+  "cta": {
+   "h2": "Ready for Professional Asphalt Paving?",
+   "p": "Contact us today for your free estimate and get asphalt paving handled properly by a crew that has been doing it in Michigan for over 30 years."
+  }
+ },
+ {
+  "slug": "commercial-parking-lots",
+  "title": "Commercial Parking Lots in SE Michigan",
+  "description": "Commercial parking lot paving, repair and maintenance across Southeast Michigan. Minimal disruption, owner supervised, free estimates. Call (248) 889-5357.",
+  "name": "Commercial Parking Lots",
+  "tagline": "Business Solutions • Professional Service • Reliable Results",
+  "banner": "commercial_banner",
+  "features": [
+   {
+    "h": "Business Focused",
+    "p": "We plan commercial work around the way your business actually runs, phasing the job so you keep operating and customers keep parking."
+   },
+   {
+    "h": "Professional Service",
+    "p": "Planning, execution and cleanup are handled to a commercial standard, with the owner supervising the crew on site."
+   }
+  ],
+  "why": {
+   "eyebrow": "Commercial Parking Lots",
+   "h2": "Why Professional Commercial Parking Lot Services Matter",
+   "paras": [
+    "Your parking lot is usually the first impression a customer has of your business. Our commercial parking lot services keep your property looking professional while providing safe, functional parking for customers and staff. Over 30 years we have helped businesses throughout Michigan maintain and improve their parking facilities."
+   ],
+   "benefitsTitle": "Benefits of Professional Commercial Parking Lot Services",
+   "benefits": [
+    "Enhances business appearance and professionalism",
+    "Provides safe parking for customers and employees",
+    "Increases property value",
+    "Reduces liability risks",
+    "Minimises maintenance costs over time"
+   ],
+   "imgs": [
+    {
+     "src": "commercial_0",
+     "alt": "Commercial Parking Lots by Asphalt Express LLC"
+    },
+    {
+     "src": "commercial_1",
+     "alt": "Commercial Parking Lots project detail"
+    }
+   ]
+  },
+  "process": {
+   "h2": "Our Commercial Parking Lot Services",
+   "p": "A clear, repeatable process is what separates a surface that lasts from one that fails early. Here is exactly how we approach the job.",
+   "steps": [
+    {
+     "h": "Parking lot paving and installation",
+     "p": "New lots built on a properly engineered base for commercial traffic loads."
+    },
+    {
+     "h": "Parking lot repair and maintenance",
+     "p": "Potholes, failed sections and cracking addressed before they spread."
+    },
+    {
+     "h": "Parking lot resurfacing",
+     "p": "A new wearing course over a sound base, at a fraction of replacement cost."
+    },
+    {
+     "h": "Sealcoating and protection",
+     "p": "Sealer and fresh line striping to protect the surface and keep the lot legible."
+    }
+   ]
+  },
+  "featured": {
+   "h3": "Commercial Parking Lot Solutions",
+   "p": "Our commercial parking lot services are built around the specific needs of your business, covering paving, repair and ongoing maintenance to keep the lot in excellent condition.",
+   "checks": [
+    "Professional parking lot paving and installation",
+    "Parking lot repair and maintenance",
+    "Sealcoating and protection services"
+   ]
+  },
+  "faq": {
+   "h2": "Commercial Parking Lots FAQs",
+   "items": [
+    {
+     "q": "Can you work outside business hours?",
+     "a": "Yes. We routinely phase commercial work, or schedule evenings and weekends, so your lot stays usable and your business keeps trading."
+    },
+    {
+     "q": "Do you handle line striping as well?",
+     "a": "We do. Fresh striping and markings are part of our parking lot work, including accessible spaces and directional markings."
+    },
+    {
+     "q": "Do you provide free estimates?",
+     "a": "Yes. Every estimate is free. A team member comes out, looks at the site and gives you our honest recommendation for the project while keeping your budget in mind."
+    },
+    {
+     "q": "What is your satisfaction guarantee?",
+     "a": "We stand behind every job 100%. The owner is on site supervising every jobsite, which is how we have kept our standards consistent for over 30 years."
+    },
+    {
+     "q": "Do you work in all weather conditions?",
+     "a": "We schedule around optimal weather. Proper temperature and dry conditions are essential for asphalt to bond and cure correctly, so we will move a date rather than compromise the result."
+    }
+   ]
+  },
+  "cta": {
+   "h2": "Ready for Professional Commercial Parking Lots?",
+   "p": "Contact us today for your free estimate and get commercial parking lots handled properly by a crew that has been doing it in Michigan for over 30 years."
+  }
+ },
+ {
+  "slug": "sealcoating-maintenance",
+  "title": "Sealcoating & Maintenance in SE Michigan",
+  "description": "Asphalt sealcoating, crack filling and maintenance in Southeast Michigan. Protect your surface and extend its life. Free estimates, call (248) 889-5357.",
+  "name": "Sealcoating & Maintenance",
+  "tagline": "Protection • Maintenance • Longevity",
+  "banner": "sealcoating_banner",
+  "features": [
+   {
+    "h": "Surface Protection",
+    "p": "Professional sealcoating shields the surface from weather, UV and traffic wear, which is what causes asphalt to gray, ravel and fail."
+   },
+   {
+    "h": "Preventive Maintenance",
+    "p": "Catching cracks early stops water reaching the base. Regular maintenance is far cheaper than the repairs it prevents."
+   }
+  ],
+  "why": {
+   "eyebrow": "Sealcoating & Maintenance",
+   "h2": "Why Sealcoating and Maintenance is Essential",
+   "paras": [
+    "Proper maintenance is the single biggest factor in how long an asphalt surface lasts. Our sealcoating and maintenance services protect your investment against weather, UV and traffic wear. Over 30 years we have helped property owners throughout Michigan keep their asphalt in excellent condition rather than replacing it early."
+   ],
+   "benefitsTitle": "Benefits of Professional Sealcoating and Maintenance",
+   "benefits": [
+    "Protects against weather and UV damage",
+    "Prevents water penetration and cracking",
+    "Extends asphalt surface life",
+    "Maintains a professional appearance",
+    "Reduces long-term repair costs"
+   ],
+   "imgs": [
+    {
+     "src": "sealcoating_0-v2",
+     "alt": "Sealcoating & Maintenance by Asphalt Express LLC"
+    },
+    {
+     "src": "sealcoating_1",
+     "alt": "Sealcoating & Maintenance project detail"
+    }
+   ]
+  },
+  "process": {
+   "h2": "Our Sealcoating and Maintenance Process",
+   "p": "A clear, repeatable process is what separates a surface that lasts from one that fails early. Here is exactly how we approach the job.",
+   "steps": [
+    {
+     "h": "Surface cleaning and preparation",
+     "p": "The surface is cleaned so the sealer bonds properly rather than sitting on dirt."
+    },
+    {
+     "h": "Crack filling and repair",
+     "p": "Cracks are routed and filled to keep water out of the base."
+    },
+    {
+     "h": "Professional sealcoating application",
+     "p": "Sealer applied evenly at the correct rate and left to cure."
+    },
+    {
+     "h": "Line striping and finishing",
+     "p": "Markings reinstated and edges cut in cleanly."
+    }
+   ]
+  },
+  "featured": {
+   "h3": "Professional Sealcoating & Maintenance",
+   "p": "Our sealcoating and maintenance services protect your asphalt investment and extend its lifespan, with professional application and ongoing upkeep to keep surfaces in excellent condition.",
+   "checks": [
+    "Professional sealcoating application",
+    "Crack filling and repair services",
+    "Line striping and maintenance"
+   ]
+  },
+  "faq": {
+   "h2": "Sealcoating & Maintenance FAQs",
+   "items": [
+    {
+     "q": "How often should asphalt be sealcoated?",
+     "a": "Every two to three years for most driveways and lots. Heavy traffic areas benefit from a shorter cycle. We will tell you honestly if yours does not need it yet."
+    },
+    {
+     "q": "How long before I can drive on it?",
+     "a": "Usually 24 to 48 hours depending on temperature and humidity. We will give you a specific time before we leave the site."
+    },
+    {
+     "q": "Do you provide free estimates?",
+     "a": "Yes. Every estimate is free. A team member comes out, looks at the site and gives you our honest recommendation for the project while keeping your budget in mind."
+    },
+    {
+     "q": "What is your satisfaction guarantee?",
+     "a": "We stand behind every job 100%. The owner is on site supervising every jobsite, which is how we have kept our standards consistent for over 30 years."
+    },
+    {
+     "q": "Do you work in all weather conditions?",
+     "a": "We schedule around optimal weather. Proper temperature and dry conditions are essential for asphalt to bond and cure correctly, so we will move a date rather than compromise the result."
+    }
+   ]
+  },
+  "cta": {
+   "h2": "Ready for Professional Sealcoating & Maintenance?",
+   "p": "Contact us today for your free estimate and get sealcoating & maintenance handled properly by a crew that has been doing it in Michigan for over 30 years."
+  }
+ },
+ {
+  "slug": "asphalt-resurfacing",
+  "title": "Asphalt Resurfacing in SE Michigan",
+  "description": "Asphalt resurfacing across Southeast Michigan. Restore worn surfaces to like-new for less than full replacement. Free estimates, call (248) 889-5357.",
+  "name": "Asphalt Resurfacing",
+  "tagline": "Surface Restoration • Cost-Effective • Professional Results",
+  "banner": "resurfacing_banner",
+  "features": [
+   {
+    "h": "Surface Restoration",
+    "p": "Resurfacing brings a worn or damaged surface back to a smooth, attractive finish that lifts the look of the whole property."
+   },
+   {
+    "h": "Cost-Effective Solution",
+    "p": "Where the base is still sound, resurfacing delivers an excellent result for considerably less than tearing out and replacing."
+   }
+  ],
+  "why": {
+   "eyebrow": "Asphalt Resurfacing",
+   "h2": "Why Asphalt Resurfacing is a Smart Choice",
+   "paras": [
+    "Sometimes an existing surface just needs a fresh start rather than a full rebuild. Our resurfacing service is a cost-effective way to restore worn or damaged asphalt without the expense of complete replacement. Over 30 years we have helped property owners throughout Michigan bring surfaces back to like-new condition."
+   ],
+   "benefitsTitle": "Benefits of Professional Asphalt Resurfacing",
+   "benefits": [
+    "Cost-effective alternative to replacement",
+    "Restores the surface to like-new condition",
+    "Improves appearance and functionality",
+    "Extends the life of the existing base",
+    "Minimal disruption to property use"
+   ],
+   "imgs": [
+    {
+     "src": "resurfacing_0",
+     "alt": "Asphalt Resurfacing by Asphalt Express LLC"
+    },
+    {
+     "src": "resurfacing_1",
+     "alt": "Asphalt Resurfacing project detail"
+    }
+   ]
+  },
+  "process": {
+   "h2": "Our Asphalt Resurfacing Process",
+   "p": "A clear, repeatable process is what separates a surface that lasts from one that fails early. Here is exactly how we approach the job.",
+   "steps": [
+    {
+     "h": "Surface evaluation and preparation",
+     "p": "We check whether the existing base is sound enough to resurface, and tell you if it is not."
+    },
+    {
+     "h": "Milling or grinding existing surface",
+     "p": "The worn wearing course is removed to keep grades and transitions correct."
+    },
+    {
+     "h": "New asphalt installation",
+     "p": "A fresh layer of hot mix is laid over the prepared surface."
+    },
+    {
+     "h": "Compaction and finishing",
+     "p": "Rolled to spec and finished for a smooth, even result."
+    }
+   ]
+  },
+  "featured": {
+   "h3": "Professional Asphalt Resurfacing Service",
+   "p": "Our resurfacing service restores your existing surface to like-new condition with professional evaluation, preparation and installation for a result that lasts.",
+   "checks": [
+    "Professional surface evaluation and preparation",
+    "Quality asphalt installation and compaction",
+    "Professional finishing and cleanup"
+   ]
+  },
+  "faq": {
+   "h2": "Asphalt Resurfacing FAQs",
+   "items": [
+    {
+     "q": "Can every surface be resurfaced?",
+     "a": "No. Resurfacing needs a structurally sound base. If the base has failed we will tell you straight and quote removal and replacement instead."
+    },
+    {
+     "q": "How much cheaper is resurfacing than replacement?",
+     "a": "It varies with the site, but resurfacing is typically a substantial saving because the existing base is reused. We will price both options so you can compare."
+    },
+    {
+     "q": "Do you provide free estimates?",
+     "a": "Yes. Every estimate is free. A team member comes out, looks at the site and gives you our honest recommendation for the project while keeping your budget in mind."
+    },
+    {
+     "q": "What is your satisfaction guarantee?",
+     "a": "We stand behind every job 100%. The owner is on site supervising every jobsite, which is how we have kept our standards consistent for over 30 years."
+    },
+    {
+     "q": "Do you work in all weather conditions?",
+     "a": "We schedule around optimal weather. Proper temperature and dry conditions are essential for asphalt to bond and cure correctly, so we will move a date rather than compromise the result."
+    }
+   ]
+  },
+  "cta": {
+   "h2": "Ready for Professional Asphalt Resurfacing?",
+   "p": "Contact us today for your free estimate and get asphalt resurfacing handled properly by a crew that has been doing it in Michigan for over 30 years."
+  }
+ },
+ {
+  "slug": "residential-paving",
+  "title": "Residential Paving in SE Michigan",
+  "description": "Residential asphalt driveway paving in Southeast Michigan. 30+ years, family owned, owner supervised. Free estimates, call (248) 889-5357.",
+  "name": "Residential Paving",
+  "tagline": "Home Solutions • Quality Materials • Professional Installation",
+  "banner": "residential_banner",
+  "features": [
+   {
+    "h": "Home Enhancement",
+    "p": "Residential paving lifts your home’s curb appeal and function, using quality materials and installation suited to residential use."
+   },
+   {
+    "h": "Family Focused",
+    "p": "We understand what homes need: safe surfaces for children and pets, clean edges, and a crew that respects the property it is working on."
+   }
+  ],
+  "why": {
+   "eyebrow": "Residential Paving",
+   "h2": "Why Professional Residential Paving Matters",
+   "paras": [
+    "Your home is your most important investment, and the driveway is the first thing anyone sees. Our residential paving work adds to your property’s value, curb appeal and everyday function. We specialize in residential driveways and have been the chosen residential asphalt company in this area for over 30 years."
+   ],
+   "benefitsTitle": "Benefits of Professional Residential Paving",
+   "benefits": [
+    "Increases home value and curb appeal",
+    "Provides safe, smooth surfaces",
+    "Reduces maintenance requirements",
+    "Improves drainage and functionality",
+    "Professional appearance for your home"
+   ],
+   "imgs": [
+    {
+     "src": "residential_0",
+     "alt": "Residential Paving by Asphalt Express LLC"
+    },
+    {
+     "src": "residential_1",
+     "alt": "Residential Paving project detail"
+    }
+   ]
+  },
+  "process": {
+   "h2": "Our Residential Paving Services",
+   "p": "A clear, repeatable process is what separates a surface that lasts from one that fails early. Here is exactly how we approach the job.",
+   "steps": [
+    {
+     "h": "Driveway paving and installation",
+     "p": "New driveways built on a properly prepared and compacted base."
+    },
+    {
+     "h": "Driveway resurfacing and repair",
+     "p": "Worn driveways restored without the cost of full replacement."
+    },
+    {
+     "h": "Private road paving",
+     "p": "Longer private drives and shared roads built for real vehicle loads."
+    },
+    {
+     "h": "Walkway and patio paving",
+     "p": "Walkways and approaches finished to match the main surface."
+    }
+   ]
+  },
+  "featured": {
+   "h3": "Professional Residential Paving Solutions",
+   "p": "Our residential paving services are designed specifically for homeowners, with quality materials and professional installation for driveways, walkways and private roads.",
+   "checks": [
+    "Professional driveway paving and installation",
+    "Driveway resurfacing and repair",
+    "Private road and walkway paving"
+   ]
+  },
+  "faq": {
+   "h2": "Residential Paving FAQs",
+   "items": [
+    {
+     "q": "Will you pave my walkways at the same time?",
+     "a": "Yes, and we often do. Handling walkways and approaches in the same visit gives a consistent finish and usually costs less than a separate trip."
+    },
+    {
+     "q": "How long before I can park on a new driveway?",
+     "a": "Foot traffic is usually fine within a day. We normally ask you to keep vehicles off for a few days while the surface cures, and we will confirm the exact timing for your job."
+    },
+    {
+     "q": "Do you provide free estimates?",
+     "a": "Yes. Every estimate is free. A team member comes out, looks at the site and gives you our honest recommendation for the project while keeping your budget in mind."
+    },
+    {
+     "q": "What is your satisfaction guarantee?",
+     "a": "We stand behind every job 100%. The owner is on site supervising every jobsite, which is how we have kept our standards consistent for over 30 years."
+    },
+    {
+     "q": "Do you work in all weather conditions?",
+     "a": "We schedule around optimal weather. Proper temperature and dry conditions are essential for asphalt to bond and cure correctly, so we will move a date rather than compromise the result."
+    }
+   ]
+  },
+  "cta": {
+   "h2": "Ready for Professional Residential Paving?",
+   "p": "Contact us today for your free estimate and get residential paving handled properly by a crew that has been doing it in Michigan for over 30 years."
+  }
+ },
+ {
+  "slug": "asphalt-millings",
+  "title": "Asphalt Millings in SE Michigan",
+  "description": "Asphalt millings and R.A.P. installation in Southeast Michigan. Cost-effective, eco-friendly surfacing. Free estimates, call (248) 889-5357.",
+  "name": "Asphalt Millings",
+  "tagline": "R.A.P. Materials • Cost-Effective • Eco-Friendly",
+  "banner": "millings_banner",
+  "features": [
+   {
+    "h": "Cost-Effective Solution",
+    "p": "Millings are a genuinely affordable alternative to hot mix while still giving you a durable, functional surface."
+   },
+   {
+    "h": "Eco-Friendly Option",
+    "p": "R.A.P. reuses asphalt that has already been made once, keeping material out of landfill and performing well in the process."
+   }
+  ],
+  "why": {
+   "eyebrow": "Asphalt Millings",
+   "h2": "Why Choose Asphalt Millings for Your Project",
+   "paras": [
+    "Every project has a different budget and a different job to do. Our asphalt millings service uses R.A.P. (Recycled Asphalt Pavement) to deliver strong performance at a fraction of the cost of traditional paving. Over 30 years we have helped property owners throughout Michigan reach their paving goals this way."
+   ],
+   "benefitsTitle": "Benefits of Professional Asphalt Millings",
+   "benefits": [
+    "Cost-effective alternative to traditional paving",
+    "Environmentally friendly recycled materials",
+    "Durable and long-lasting performance",
+    "Quick installation process",
+    "Versatile applications for various projects"
+   ],
+   "imgs": [
+    {
+     "src": "millings_0-v2",
+     "alt": "Asphalt Millings by Asphalt Express LLC"
+    },
+    {
+     "src": "millings_1",
+     "alt": "Asphalt Millings project detail"
+    }
+   ]
+  },
+  "process": {
+   "h2": "Our Asphalt Millings Installation Process",
+   "p": "A clear, repeatable process is what separates a surface that lasts from one that fails early. Here is exactly how we approach the job.",
+   "steps": [
+    {
+     "h": "Site preparation and base evaluation",
+     "p": "We check the ground conditions and prepare the area before any material arrives."
+    },
+    {
+     "h": "R.A.P. material delivery and placement",
+     "p": "Millings are delivered and spread to a consistent depth."
+    },
+    {
+     "h": "Professional grading and compaction",
+     "p": "Graded for drainage and compacted so the surface knits together and holds."
+    },
+    {
+     "h": "Final finishing and cleanup",
+     "p": "Edges finished and the site left tidy."
+    }
+   ]
+  },
+  "featured": {
+   "h3": "Professional Asphalt Millings Installation",
+   "p": "Our millings service provides cost-effective paving using R.A.P. materials, professionally installed for driveways, parking areas and private roads at an affordable price.",
+   "checks": [
+    "R.A.P. asphalt millings installation",
+    "Professional grading and compaction",
+    "Cost-effective paving solutions"
+   ]
+  },
+  "faq": {
+   "h2": "Asphalt Millings FAQs",
+   "items": [
+    {
+     "q": "How do millings compare to a paved surface?",
+     "a": "Millings compact into a firm, dark surface that handles traffic well at a much lower cost. They are not as smooth or as uniform as hot mix, which we will explain honestly before you decide."
+    },
+    {
+     "q": "Where do millings work best?",
+     "a": "Long driveways, private roads, parking and yard areas, and anywhere you want a solid surface without the cost of full paving."
+    },
+    {
+     "q": "Do you provide free estimates?",
+     "a": "Yes. Every estimate is free. A team member comes out, looks at the site and gives you our honest recommendation for the project while keeping your budget in mind."
+    },
+    {
+     "q": "What is your satisfaction guarantee?",
+     "a": "We stand behind every job 100%. The owner is on site supervising every jobsite, which is how we have kept our standards consistent for over 30 years."
+    },
+    {
+     "q": "Do you work in all weather conditions?",
+     "a": "We schedule around optimal weather. Proper temperature and dry conditions are essential for asphalt to bond and cure correctly, so we will move a date rather than compromise the result."
+    }
+   ]
+  },
+  "cta": {
+   "h2": "Ready for Professional Asphalt Millings?",
+   "p": "Contact us today for your free estimate and get asphalt millings handled properly by a crew that has been doing it in Michigan for over 30 years."
+  }
+ },
+ {
+  "slug": "removal-replacement",
+  "title": "Removal & Replacement in SE Michigan",
+  "description": "Asphalt removal and replacement in Southeast Michigan. Complete tear-out and new installation on a properly prepared base. Call (248) 889-5357.",
+  "name": "Removal & Replacement",
+  "tagline": "Complete Solution • Fresh Start • Professional Installation",
+  "banner": "removal_banner",
+  "features": [
+   {
+    "h": "Complete Solution",
+    "p": "Old, failed material is removed entirely and replaced with new asphalt, so you are not paying to patch over a problem that will return."
+   },
+   {
+    "h": "Fresh Start",
+    "p": "Where existing surfaces are past saving, replacement gives you new materials and a correct installation, and a surface that performs for years."
+   }
+  ],
+  "why": {
+   "eyebrow": "Removal & Replacement",
+   "h2": "When Removal and Replacement is the Best Solution",
+   "paras": [
+    "Sometimes a surface is genuinely beyond repair or resurfacing. Our removal and replacement service is the complete answer: old, damaged material comes out, the base is corrected, and fresh asphalt goes down properly. Over 30 years we have helped property owners throughout Michigan start again with a surface that lasts."
+   ],
+   "benefitsTitle": "Benefits of Professional Removal and Replacement",
+   "benefits": [
+    "Complete solution for severely damaged surfaces",
+    "Fresh start with new materials",
+    "Proper base preparation and installation",
+    "Long-lasting results and performance",
+    "Professional appearance and functionality"
+   ],
+   "imgs": [
+    {
+     "src": "removal_0",
+     "alt": "Removal & Replacement by Asphalt Express LLC"
+    },
+    {
+     "src": "removal_1",
+     "alt": "Removal & Replacement project detail"
+    }
+   ]
+  },
+  "process": {
+   "h2": "Our Removal and Replacement Process",
+   "p": "A clear, repeatable process is what separates a surface that lasts from one that fails early. Here is exactly how we approach the job.",
+   "steps": [
+    {
+     "h": "Complete removal of existing surface",
+     "p": "The failed surface is broken out and hauled away."
+    },
+    {
+     "h": "Base preparation and evaluation",
+     "p": "We assess the base, correct what has failed and recompact before anything is laid."
+    },
+    {
+     "h": "New asphalt installation",
+     "p": "Fresh hot mix laid at the correct depth for the intended use."
+    },
+    {
+     "h": "Professional finishing and cleanup",
+     "p": "Compacted, finished and the site left clean."
+    }
+   ]
+  },
+  "featured": {
+   "h3": "Professional Removal & Replacement Service",
+   "p": "Our removal and replacement service is the complete answer for severely damaged surfaces. We remove the old material entirely and install fresh asphalt with proper preparation.",
+   "checks": [
+    "Complete removal of existing surfaces",
+    "Professional base preparation and evaluation",
+    "Quality new asphalt installation"
+   ]
+  },
+  "faq": {
+   "h2": "Removal & Replacement FAQs",
+   "items": [
+    {
+     "q": "How do I know if I need replacement rather than resurfacing?",
+     "a": "It comes down to the base. Widespread alligator cracking, sinking areas and potholes that keep returning usually mean the base has failed. We will assess it and tell you honestly which option you actually need."
+    },
+    {
+     "q": "What happens to the old asphalt?",
+     "a": "It is hauled away and recycled. Reclaimed asphalt goes back into the supply chain as R.A.P., which is the same material we use for our millings service."
+    },
+    {
+     "q": "Do you provide free estimates?",
+     "a": "Yes. Every estimate is free. A team member comes out, looks at the site and gives you our honest recommendation for the project while keeping your budget in mind."
+    },
+    {
+     "q": "What is your satisfaction guarantee?",
+     "a": "We stand behind every job 100%. The owner is on site supervising every jobsite, which is how we have kept our standards consistent for over 30 years."
+    },
+    {
+     "q": "Do you work in all weather conditions?",
+     "a": "We schedule around optimal weather. Proper temperature and dry conditions are essential for asphalt to bond and cure correctly, so we will move a date rather than compromise the result."
+    }
+   ]
+  },
+  "cta": {
+   "h2": "Ready for Professional Removal & Replacement?",
+   "p": "Contact us today for your free estimate and get removal & replacement handled properly by a crew that has been doing it in Michigan for over 30 years."
+  }
+ },
+ {
+  "slug": "parking-lot-repair",
+  "title": "Parking Lot Repair in SE Michigan",
+  "description": "Parking lot repair in Southeast Michigan. Pothole repair, crack filling and line striping with quick response. Free estimates, call (248) 889-5357.",
+  "name": "Parking Lot Repair",
+  "tagline": "Expert Repair • Quick Response • Professional Results",
+  "banner": "repair_banner",
+  "features": [
+   {
+    "h": "Expert Repair",
+    "p": "Potholes, cracks and other damage are addressed with proper techniques and quality materials, so the repair holds instead of failing again next season."
+   },
+   {
+    "h": "Quick Response",
+    "p": "Lot problems need prompt attention. We respond quickly to keep disruption to your business and your customers to a minimum."
+   }
+  ],
+  "why": {
+   "eyebrow": "Parking Lot Repair",
+   "h2": "Why Professional Parking Lot Repair is Essential",
+   "paras": [
+    "Parking lot problems affect your operations and your customers’ experience of your business. Our repair services deal with potholes, cracks and surface damage quickly and effectively. Over 30 years we have helped businesses throughout Michigan keep lots safe, functional and consistent with the image they want to project."
+   ],
+   "benefitsTitle": "Benefits of Professional Parking Lot Repair",
+   "benefits": [
+    "Maintains safe parking conditions",
+    "Prevents further damage and costly repairs",
+    "Enhances business appearance",
+    "Reduces liability risks",
+    "Extends parking lot lifespan"
+   ],
+   "imgs": [
+    {
+     "src": "repair_0",
+     "alt": "Parking Lot Repair by Asphalt Express LLC"
+    },
+    {
+     "src": "repair_1",
+     "alt": "Parking Lot Repair project detail"
+    }
+   ]
+  },
+  "process": {
+   "h2": "Our Parking Lot Repair Services",
+   "p": "A clear, repeatable process is what separates a surface that lasts from one that fails early. Here is exactly how we approach the job.",
+   "steps": [
+    {
+     "h": "Pothole repair and patching",
+     "p": "Failed areas cut out, prepared and patched so the repair bonds properly."
+    },
+    {
+     "h": "Crack filling and sealing",
+     "p": "Cracks sealed to stop water reaching and undermining the base."
+    },
+    {
+     "h": "Surface leveling and smoothing",
+     "p": "Depressions and trip hazards leveled out."
+    },
+    {
+     "h": "Line striping and marking",
+     "p": "Markings reinstated so the lot stays clearly laid out and compliant."
+    }
+   ]
+  },
+  "featured": {
+   "h3": "Professional Parking Lot Repair Service",
+   "p": "Our repair service covers every type of damage including potholes, cracks and surface issues, with quick, effective work that restores your lot to safe, functional condition.",
+   "checks": [
+    "Pothole repair and patching",
+    "Crack filling and sealing",
+    "Line striping and maintenance"
+   ]
+  },
+  "faq": {
+   "h2": "Parking Lot Repair FAQs",
+   "items": [
+    {
+     "q": "How quickly can you deal with a pothole?",
+     "a": "Potholes are a safety and liability issue, so we prioritize them. Call us and we will get out to assess and schedule the repair promptly."
+    },
+    {
+     "q": "Is repair worth it, or should I just resurface?",
+     "a": "If the damage is localized and the base is sound, repair is far more economical. When damage is widespread we will say so and price resurfacing or replacement instead."
+    },
+    {
+     "q": "Do you provide free estimates?",
+     "a": "Yes. Every estimate is free. A team member comes out, looks at the site and gives you our honest recommendation for the project while keeping your budget in mind."
+    },
+    {
+     "q": "What is your satisfaction guarantee?",
+     "a": "We stand behind every job 100%. The owner is on site supervising every jobsite, which is how we have kept our standards consistent for over 30 years."
+    },
+    {
+     "q": "Do you work in all weather conditions?",
+     "a": "We schedule around optimal weather. Proper temperature and dry conditions are essential for asphalt to bond and cure correctly, so we will move a date rather than compromise the result."
+    }
+   ]
+  },
+  "cta": {
+   "h2": "Ready for Professional Parking Lot Repair?",
+   "p": "Contact us today for your free estimate and get parking lot repair handled properly by a crew that has been doing it in Michigan for over 30 years."
+  }
+ }
+]
