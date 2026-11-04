@@ -175,5 +175,23 @@ const current = (h: string) => (path.startsWith(h) || (h === '/services/' && ser
     <a class="btn btn--yellow" href={b.phoneHref}>Call now</a>
     <a class="btn btn--ghost" style="color:#fff" href="/contact/">Free estimate</a>
   </div>
+  <script is:inline>
+    // Mobile menu: lock the page behind it and size the panel to the space under the header.
+    (function () {
+      var menu = document.querySelector('.menu');
+      var header = document.querySelector('.header');
+      if (!menu || !header) return;
+      var root = document.documentElement;
+      var place = function () { root.style.setProperty('--menu-top', Math.max(0, header.getBoundingClientRect().bottom) + 'px'); };
+      place();
+      menu.addEventListener('toggle', function () {
+        if (menu.open) place();
+        root.classList.toggle('menu-open', menu.open);
+      });
+      menu.addEventListener('click', function (e) { if (e.target.closest('a')) menu.open = false; });
+      document.addEventListener('keydown', function (e) { if (e.key === 'Escape' && menu.open) { menu.open = false; menu.querySelector('summary').focus({ preventScroll: true }); } });
+      window.addEventListener('resize', function () { if (menu.open) { if (innerWidth > 1040) menu.open = false; else place(); } });
+    })();
+  </script>
 </body>
 </html>
