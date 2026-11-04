@@ -4,7 +4,7 @@ import { business as b, towns, href } from '../data/site';
 const list = towns.map((t) => ({ n: t.name, h: href(t.slug), c: t.county }));
 ---
 <div class="checker towns" data-towns>
-  <h3 class="checker__title"><label for="town-q">Do we cover your town?</label></h3>
+  <p class="checker__title"><label for="town-q">Do we cover your town?</label></p>
   <p style="color:var(--muted-d)">Type your town or city and we will tell you straight away.</p>
   <form class="towns__form" data-town-form>
     <input id="town-q" type="text" autocomplete="address-level2" placeholder="e.g. Milford" data-town-input />
