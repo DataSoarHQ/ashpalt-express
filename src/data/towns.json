@@ -960,6 +960,390 @@
   }
  },
  {
+  "slug": "burton-mi",
+  "name": "Burton",
+  "county": "Genesee",
+  "zips": [
+   "48509",
+   "48519",
+   "48529"
+  ],
+  "title": "Asphalt Paving in Burton, MI",
+  "description": "Driveway paving, parking lots, sealcoating & resurfacing in Burton, MI. Family owned 30+ years, owner supervised, free estimates. Call (248) 889-5357.",
+  "sub": "Driveways, parking lots, sealcoating and resurfacing in Burton. Family owned for over 30 years, owner supervised on every jobsite, free estimates.",
+  "banner": "repair_banner",
+  "intro": {
+   "h2": "Family owned. Owner supervised. Burton driveways and lots.",
+   "paras": [
+    "Burton is a city on the east and southeast side of Flint in Genesee County, with I-69 running across it and a long run of shops, restaurants and service businesses along its main commercial roads. Most of the city is established residential neighborhoods, with newer homes and larger lots toward its rural eastern edge.",
+    "For Asphalt Express LLC the work in Burton is mostly driveway replacement and resurfacing on established lots, where older drives have broken down after decades of Michigan winters, plus parking lot paving, repair, sealcoating and striping for the businesses along the commercial corridors. On the larger lots toward the edge of the city we build longer drives and turnarounds, and we offer asphalt millings where a full hot-mix surface is more than the property needs.",
+    "The owner is on every Burton job."
+   ],
+   "checks": [
+    "Free estimates anywhere in Burton",
+    "Owner on every jobsite",
+    "Residential driveways and commercial lots",
+    "Over 30 years in Michigan"
+   ],
+   "imgs": [
+    {
+     "src": "port_7",
+     "alt": "Asphalt driveway paving in Burton, Michigan by Asphalt Express LLC"
+    },
+    {
+     "src": "port_25",
+     "alt": "Asphalt Express crew working in Burton, MI"
+    }
+   ]
+  },
+  "services": {
+   "h2": "Paving services for Burton, MI.",
+   "p": "Every service we offer is available in Burton. Established neighborhoods, busy commercial lots and the larger properties on the edge of the city each need something a little different, and we do all of it with the same owner-supervised crew.",
+   "items": [
+    {
+     "slug": "asphalt-paving",
+     "name": "Asphalt Paving in Burton",
+     "text": "New asphalt surfaces for driveways, private roads and parking areas, from excavation and base construction through hot-mix installation and compaction. In Burton that usually means a new drive on an established lot, built on a properly compacted base and tied cleanly into the street and the garage."
+    },
+    {
+     "slug": "commercial-parking-lots",
+     "name": "Commercial Parking Lots in Burton",
+     "text": "Parking lot paving, resurfacing, repair, sealcoating and line striping for businesses of every size. For Burton businesses along the main commercial roads, we phase the work so the lot stays open and customers keep parking."
+    },
+    {
+     "slug": "sealcoating-maintenance",
+     "name": "Sealcoating & Maintenance in Burton",
+     "text": "Protective sealcoating, crack filling and routine maintenance that keep water out of the base and extend the life of the surface. For Burton driveways and lots, a regular sealing cycle is the cheapest way to keep a surface tight through the freeze-thaw season."
+    },
+    {
+     "slug": "asphalt-resurfacing",
+     "name": "Asphalt Resurfacing in Burton",
+     "text": "A new wearing course over an existing surface whose base is still sound, restoring a worn driveway or lot to like-new condition. Where a Burton driveway has a sound base under a worn surface, we resurface it for far less than replacement, and tell you honestly when the base will not hold."
+    },
+    {
+     "slug": "residential-paving",
+     "name": "Residential Paving in Burton",
+     "text": "Driveways, walkways, private roads and turnarounds for homeowners, built to carry real use and finished to match the property. In Burton that means careful work on established lots, with clean edges against walks, lawns and the neighbor’s property."
+    },
+    {
+     "slug": "asphalt-millings",
+     "name": "Asphalt Millings in Burton",
+     "text": "Recycled asphalt pavement, delivered, graded and compacted into a firm, dark surface for drives, yards and parking areas. For a long drive or parking area on a larger Burton lot, millings give a firm, affordable surface."
+    },
+    {
+     "slug": "removal-replacement",
+     "name": "Removal & Replacement in Burton",
+     "text": "Complete removal of a failed surface, correction and recompaction of the base, and installation of new asphalt. For older Burton driveways where patches are failing on top of patches, replacement gives you a surface that will last."
+    },
+    {
+     "slug": "parking-lot-repair",
+     "name": "Parking Lot Repair in Burton",
+     "text": "Pothole repair and patching, crack filling and sealing, surface leveling and line striping for existing lots. For Burton businesses that means prompt pothole and section repairs so the lot stays safe and looks cared for."
+    }
+   ]
+  },
+  "local": {
+   "h2": "Paving in Burton: the ground and the weather.",
+   "paras": [
+    "Much of Burton sits on heavy, slow-draining clay, and driveways built thin on that ground crack and heave as water freezes under them. We excavate to the depth the ground needs, build a properly compacted aggregate base and grade every surface so water runs off rather than soaking in.",
+    "Genesee County winters are hard on asphalt: deep frost, heavy plowing and road salt tracked onto drives and lots. Annual crack filling and sealcoating every two to three years are the most cost-effective protection for any surface we build.",
+    "Seasonal weight restrictions and road standards in Genesee County are set by the <a href=\"https://www.gcrc.org/\">Genesee County Road Commission</a>; for hot-mix specifications we work to the <a href=\"https://www.apa-mi.org/\">Asphalt Pavement Association of Michigan</a> guidance."
+   ]
+  },
+  "steps": {
+   "h2": "The same five steps on every Burton paving job.",
+   "items": [
+    {
+     "h": "Walk the site and quote",
+     "p": "We look at the ground, the access and the drainage, and give you a free, honest estimate for what the job actually needs."
+    },
+    {
+     "h": "Prepare the base",
+     "p": "Excavate to the right depth, correct soft ground with fabric and aggregate, and compact a base that will not move."
+    },
+    {
+     "h": "Grade for drainage",
+     "p": "Shape the surface so water sheds away from the house, the lake or the building, and toward ground that can take it."
+    },
+    {
+     "h": "Lay and compact the asphalt",
+     "p": "Hot mix placed at the right temperature and rolled to spec while it is workable, with clean edges and transitions."
+    },
+    {
+     "h": "Finish and protect",
+     "p": "Striping where needed, a clean site, and a sealing schedule so the surface stays tight through Michigan winters."
+    }
+   ]
+  },
+  "why": {
+   "h2": "Property owners in Burton call us back for the same reasons.",
+   "items": [
+    {
+     "h": "Owner on every Burton job",
+     "p": "Whether it is a single driveway or a commercial lot, the owner checks the base, the grading and the finish on site."
+    },
+    {
+     "h": "Family owned, 30+ years",
+     "p": "A second generation family business with three decades of paving in Michigan, built on honest advice and work we stand behind."
+    },
+    {
+     "h": "Free, honest estimates",
+     "p": "We come out, look at the ground and the access, and tell you what the job actually needs. No pressure, no surprises."
+    },
+    {
+     "h": "Neat on established lots",
+     "p": "We plan staging before the day, protect walks, lawns and landscaping, and leave the site clean."
+    }
+   ]
+  },
+  "where": {
+   "h2": "Every neighborhood, every road.",
+   "paras": [
+    "We serve all of Burton, from the neighborhoods off Center Road, Belsay Road, Bristol Road and Atherton Road to the commercial corridors near I-69 and the larger lots toward the city’s eastern edge.",
+    "Anywhere in Burton, call <a href=\"tel:+12488895357\">(248) 889-5357</a> or use the form below."
+   ],
+   "img": {
+    "src": "port_9",
+    "alt": "Completed asphalt project in Burton, MI"
+   }
+  },
+  "faq": {
+   "h2": "Burton paving questions, straight answers.",
+   "p": "The questions Burton property owners ask us most, answered honestly.",
+   "items": [
+    {
+     "q": "Do you work in Burton?",
+     "a": "<p>Yes. Burton is part of our Genesee County service area and we schedule work there with the same crew that covers Grand Blanc and Fenton.</p>"
+    },
+    {
+     "q": "Can you pave a parking lot without closing my business?",
+     "a": "<p>Usually, yes. We phase commercial lots in sections or schedule around your hours so customers can keep parking.</p>"
+    },
+    {
+     "q": "How long does a driveway take in Burton?",
+     "a": "<p>Most driveways on established lots are completed in a single day. Removal and replacement with base work can take two. We confirm the schedule when we quote.</p>"
+    },
+    {
+     "q": "When can I drive on the new surface?",
+     "a": "<p>Foot traffic is usually fine within a day. We ask you to keep vehicles off for a few days while the asphalt cures, and we will confirm the exact timing for your job.</p>"
+    },
+    {
+     "q": "Do you provide free estimates in Burton?",
+     "a": "<p>Yes. Every estimate is free. We come out, look at the driveway or lot and the access, and give you our honest recommendation while keeping your budget in mind.</p>"
+    }
+   ]
+  },
+  "nearby": {
+   "h2": "We also pave in towns next to Burton.",
+   "p": "One crew, one standard, across Genesee County and the surrounding area.",
+   "slugs": [
+    "grand-blanc-mi",
+    "goodrich-mi",
+    "fenton-mi",
+    "holly-mi"
+   ]
+  },
+  "quote": {
+   "h2": "Ready to pave or sealcoat in Burton?",
+   "p": "Tell us about the driveway or lot and we will come out and give you an honest, no-obligation estimate."
+  },
+  "cta": {
+   "h2": "Quality paving and unbeatable service in Burton.",
+   "p": "Over 30 years of asphalt work in Michigan. Call today for your free Burton estimate."
+  }
+ },
+ {
+  "slug": "byron-mi",
+  "name": "Byron",
+  "county": "Shiawassee",
+  "zips": [
+   "48418"
+  ],
+  "title": "Asphalt Paving in Byron, MI",
+  "description": "Driveway paving, parking lots, sealcoating & resurfacing in Byron, MI. Family owned 30+ years, owner supervised, free estimates. Call (248) 889-5357.",
+  "sub": "Driveways, parking lots, sealcoating and resurfacing in Byron. Family owned for over 30 years, owner supervised on every jobsite, free estimates.",
+  "banner": "millings_banner",
+  "intro": {
+   "h2": "Family owned. Owner supervised. Byron driveways and lots.",
+   "paras": [
+    "Byron is a small village in southeastern Shiawassee County, close to the Genesee and Livingston County lines, surrounded by farmland, wooded lots and the rural roads of Burns Township. Byron Road runs south from the area toward Howell.",
+    "Out here the work is mostly residential and rural: long driveways and private roads on large lots, farm and pole-barn approaches that have to carry trucks and trailers, and replacement drives on the village’s established streets. For long rural drives, asphalt millings are often the most practical choice, and we will tell you honestly whether millings or hot mix suits the property.",
+    "The owner is on every Byron job."
+   ],
+   "checks": [
+    "Free estimates anywhere in Byron",
+    "Owner on every jobsite",
+    "Residential driveways and commercial lots",
+    "Over 30 years in Michigan"
+   ],
+   "imgs": [
+    {
+     "src": "port_4",
+     "alt": "Asphalt driveway paving in Byron, Michigan by Asphalt Express LLC"
+    },
+    {
+     "src": "port_15",
+     "alt": "Asphalt Express crew working in Byron, MI"
+    }
+   ]
+  },
+  "services": {
+   "h2": "Paving services for Byron, MI.",
+   "p": "Every service we offer is available in Byron. Village lots, long rural drives and farm approaches each need something a little different, and we do all of it with the same owner-supervised crew.",
+   "items": [
+    {
+     "slug": "asphalt-paving",
+     "name": "Asphalt Paving in Byron",
+     "text": "New asphalt surfaces for driveways, private roads and parking areas, from excavation and base construction through hot-mix installation and compaction. On Byron’s larger rural lots that means a base built for long runs, heavy vehicles and good drainage off open ground."
+    },
+    {
+     "slug": "commercial-parking-lots",
+     "name": "Commercial Parking Lots in Byron",
+     "text": "Parking lot paving, resurfacing, repair, sealcoating and line striping for businesses of every size. For Byron-area businesses we schedule the work so the lot stays usable and the job is done quickly."
+    },
+    {
+     "slug": "sealcoating-maintenance",
+     "name": "Sealcoating & Maintenance in Byron",
+     "text": "Protective sealcoating, crack filling and routine maintenance that keep water out of the base and extend the life of the surface. On long, exposed rural drives, sealcoating and crack filling keep water and frost out of the base and add years to the surface."
+    },
+    {
+     "slug": "asphalt-resurfacing",
+     "name": "Asphalt Resurfacing in Byron",
+     "text": "A new wearing course over an existing surface whose base is still sound, restoring a worn driveway or lot to like-new condition. Where a Byron driveway has a sound base under a worn surface, resurfacing restores it for far less than replacement."
+    },
+    {
+     "slug": "residential-paving",
+     "name": "Residential Paving in Byron",
+     "text": "Driveways, walkways, private roads and turnarounds for homeowners, built to carry real use and finished to match the property. In Byron that includes long rural drives, turnarounds and approaches to garages and outbuildings."
+    },
+    {
+     "slug": "asphalt-millings",
+     "name": "Asphalt Millings in Byron",
+     "text": "Recycled asphalt pavement, delivered, graded and compacted into a firm, dark surface for drives, yards and parking areas. For a long country drive or a yard around outbuildings in the Byron area, millings give a firm, dust-free surface at a fraction of the cost."
+    },
+    {
+     "slug": "removal-replacement",
+     "name": "Removal & Replacement in Byron",
+     "text": "Complete removal of a failed surface, correction and recompaction of the base, and installation of new asphalt. Where an old rural drive has broken up and the base has failed, removal and replacement is usually the honest answer."
+    },
+    {
+     "slug": "parking-lot-repair",
+     "name": "Parking Lot Repair in Byron",
+     "text": "Pothole repair and patching, crack filling and sealing, surface leveling and line striping for existing lots. Potholes and failed sections are repaired properly so they do not come back next season."
+    }
+   ]
+  },
+  "local": {
+   "h2": "Paving in Byron: the ground and the weather.",
+   "paras": [
+    "Rural ground around Byron varies from field to field, with heavier soil in low spots and better-drained ground on rises. We assess each site rather than assuming, excavate to the depth the ground needs, and grade long drives so water leaves the surface instead of running down it.",
+    "Open country drives take the full force of Michigan winters: wind, drifting snow, deep frost and heavy plowing. Crack filling every year and sealcoating every two to three years are the most cost-effective ways to protect them.",
+    "Seasonal weight restrictions and road standards in Shiawassee County are set by the Shiawassee County Road Commission; for hot-mix specifications we work to the <a href=\"https://www.apa-mi.org/\">Asphalt Pavement Association of Michigan</a> guidance."
+   ]
+  },
+  "steps": {
+   "h2": "The same five steps on every Byron paving job.",
+   "items": [
+    {
+     "h": "Walk the site and quote",
+     "p": "We look at the ground, the access and the drainage, and give you a free, honest estimate for what the job actually needs."
+    },
+    {
+     "h": "Prepare the base",
+     "p": "Excavate to the right depth, correct soft ground with fabric and aggregate, and compact a base that will not move."
+    },
+    {
+     "h": "Grade for drainage",
+     "p": "Shape the surface so water sheds away from the house, the lake or the building, and toward ground that can take it."
+    },
+    {
+     "h": "Lay and compact the asphalt",
+     "p": "Hot mix placed at the right temperature and rolled to spec while it is workable, with clean edges and transitions."
+    },
+    {
+     "h": "Finish and protect",
+     "p": "Striping where needed, a clean site, and a sealing schedule so the surface stays tight through Michigan winters."
+    }
+   ]
+  },
+  "why": {
+   "h2": "Property owners in Byron call us back for the same reasons.",
+   "items": [
+    {
+     "h": "Owner on every Byron job",
+     "p": "Long rural drives succeed or fail at the base. The owner checks the ground, the base and the drainage on site."
+    },
+    {
+     "h": "Family owned, 30+ years",
+     "p": "A second generation family business with three decades of paving in Michigan, built on honest advice and work we stand behind."
+    },
+    {
+     "h": "Free, honest estimates",
+     "p": "We come out, look at the ground and the access, and tell you what the job actually needs. No pressure, no surprises."
+    },
+    {
+     "h": "Millings or hot mix, honestly",
+     "p": "For long country drives we will price both and tell you which one actually makes sense for your property and your budget."
+    }
+   ]
+  },
+  "where": {
+   "h2": "Every neighborhood, every road.",
+   "paras": [
+    "We serve the Village of Byron and the surrounding Burns Township area, including the village streets, the rural roads and farm properties around the village, and the countryside toward Linden, Fenton and Howell.",
+    "Anywhere in Byron, call <a href=\"tel:+12488895357\">(248) 889-5357</a> or use the form below."
+   ],
+   "img": {
+    "src": "port_21",
+    "alt": "Completed asphalt project in Byron, MI"
+   }
+  },
+  "faq": {
+   "h2": "Byron paving questions, straight answers.",
+   "p": "The questions Byron property owners ask us most, answered honestly.",
+   "items": [
+    {
+     "q": "Do you work in Byron?",
+     "a": "<p>Yes. Byron is part of our service area, and we schedule work there with the same crew that covers nearby Linden and Fenton.</p>"
+    },
+    {
+     "q": "Are millings a good choice for a long country drive?",
+     "a": "<p>Often, yes. Millings compact into a firm, dark surface at a lower cost than hot mix. We will explain the trade-offs honestly and price both.</p>"
+    },
+    {
+     "q": "Can you pave a farm or pole-barn approach?",
+     "a": "<p>Yes. We build the base for the weight it has to carry, including trucks and trailers, and grade it to drain.</p>"
+    },
+    {
+     "q": "When can I drive on the new surface?",
+     "a": "<p>Foot traffic is usually fine within a day. We ask you to keep vehicles off for a few days while the asphalt cures, and we will confirm the exact timing for your job.</p>"
+    },
+    {
+     "q": "Do you provide free estimates in Byron?",
+     "a": "<p>Yes. Every estimate is free. We come out, look at the ground and the access, and give you our honest recommendation while keeping your budget in mind.</p>"
+    }
+   ]
+  },
+  "nearby": {
+   "h2": "We also pave in towns next to Byron.",
+   "p": "One crew, one standard, across Shiawassee County and the surrounding area.",
+   "slugs": [
+    "linden-mi",
+    "fenton-mi",
+    "howell-mi",
+    "fowlerville-mi"
+   ]
+  },
+  "quote": {
+   "h2": "Ready to pave or sealcoat in Byron?",
+   "p": "Tell us about the driveway or lot and we will come out and give you an honest, no-obligation estimate."
+  },
+  "cta": {
+   "h2": "Quality paving and unbeatable service in Byron.",
+   "p": "Over 30 years of asphalt work in Michigan. Call today for your free Byron estimate."
+  }
+ },
+ {
   "slug": "clarkston-mi",
   "name": "Clarkston",
   "county": "Oakland",
@@ -2308,6 +2692,579 @@
   }
  },
  {
+  "slug": "fowlerville-mi",
+  "name": "Fowlerville",
+  "county": "Livingston",
+  "zips": [
+   "48836"
+  ],
+  "title": "Asphalt Paving in Fowlerville, MI",
+  "description": "Driveway paving, parking lots, sealcoating & resurfacing in Fowlerville, MI. Family owned 30+ years, owner supervised, free estimates. Call (248) 889-5357.",
+  "sub": "Driveways, parking lots, sealcoating and resurfacing in Fowlerville. Family owned for over 30 years, owner supervised on every jobsite, free estimates.",
+  "banner": "paving_banner",
+  "intro": {
+   "h2": "Family owned. Owner supervised. Fowlerville driveways and lots.",
+   "paras": [
+    "Fowlerville is a village in western Livingston County, on Grand River Avenue just off I-96 west of Howell. It has a small-town downtown, established neighborhoods on the village streets, newer subdivisions on its edges, and wide rural townships of farms and large lots all around it.",
+    "In Fowlerville, Asphalt Express LLC handles driveway replacement and resurfacing in the village, new drives in the subdivisions, and long rural drives and private roads on the larger properties outside town. Along Grand River and near the I-96 interchange we pave, repair, sealcoat and stripe commercial lots, phased so the business stays open.",
+    "The owner is on every Fowlerville job."
+   ],
+   "checks": [
+    "Free estimates anywhere in Fowlerville",
+    "Owner on every jobsite",
+    "Residential driveways and commercial lots",
+    "Over 30 years in Michigan"
+   ],
+   "imgs": [
+    {
+     "src": "port_1",
+     "alt": "Asphalt driveway paving in Fowlerville, Michigan by Asphalt Express LLC"
+    },
+    {
+     "src": "port_13",
+     "alt": "Asphalt Express crew working in Fowlerville, MI"
+    }
+   ]
+  },
+  "services": {
+   "h2": "Paving services for Fowlerville, MI.",
+   "p": "Every service we offer is available in Fowlerville. Village lots, new subdivisions and rural properties each need something a little different, and we do all of it with the same owner-supervised crew.",
+   "items": [
+    {
+     "slug": "asphalt-paving",
+     "name": "Asphalt Paving in Fowlerville",
+     "text": "New asphalt surfaces for driveways, private roads and parking areas, from excavation and base construction through hot-mix installation and compaction. In Fowlerville that ranges from a new subdivision drive to a long rural driveway built for trucks, trailers and good drainage."
+    },
+    {
+     "slug": "commercial-parking-lots",
+     "name": "Commercial Parking Lots in Fowlerville",
+     "text": "Parking lot paving, resurfacing, repair, sealcoating and line striping for businesses of every size. For Fowlerville businesses along Grand River and near I-96, we phase the work so the lot stays open and customers keep parking."
+    },
+    {
+     "slug": "sealcoating-maintenance",
+     "name": "Sealcoating & Maintenance in Fowlerville",
+     "text": "Protective sealcoating, crack filling and routine maintenance that keep water out of the base and extend the life of the surface. For Fowlerville driveways and lots, a regular sealing cycle keeps the surface tight against the freeze-thaw season."
+    },
+    {
+     "slug": "asphalt-resurfacing",
+     "name": "Asphalt Resurfacing in Fowlerville",
+     "text": "A new wearing course over an existing surface whose base is still sound, restoring a worn driveway or lot to like-new condition. Where a Fowlerville drive has a sound base under a worn surface, resurfacing restores it for far less than replacement."
+    },
+    {
+     "slug": "residential-paving",
+     "name": "Residential Paving in Fowlerville",
+     "text": "Driveways, walkways, private roads and turnarounds for homeowners, built to carry real use and finished to match the property. In Fowlerville that includes village driveways, subdivision drives and long rural drives with turnarounds."
+    },
+    {
+     "slug": "asphalt-millings",
+     "name": "Asphalt Millings in Fowlerville",
+     "text": "Recycled asphalt pavement, delivered, graded and compacted into a firm, dark surface for drives, yards and parking areas. For a long rural drive outside Fowlerville, millings are a durable, affordable alternative to hot mix."
+    },
+    {
+     "slug": "removal-replacement",
+     "name": "Removal & Replacement in Fowlerville",
+     "text": "Complete removal of a failed surface, correction and recompaction of the base, and installation of new asphalt. For older village driveways that have broken up over decades of winters, replacement gives you a surface that will last."
+    },
+    {
+     "slug": "parking-lot-repair",
+     "name": "Parking Lot Repair in Fowlerville",
+     "text": "Pothole repair and patching, crack filling and sealing, surface leveling and line striping for existing lots. For Fowlerville businesses that means prompt, tidy repairs that keep the lot safe."
+    }
+   ]
+  },
+  "local": {
+   "h2": "Paving in Fowlerville: the ground and the weather.",
+   "paras": [
+    "Soils around Fowlerville range from heavy clay to sandier ground, with wet, low areas near creeks and drains. We assess each site and build the base to suit rather than using one depth everywhere.",
+    "Rural Livingston County drives see deep frost, drifting snow and heavy plowing. Annual crack filling and sealcoating every two to three years are the most cost-effective protection for any surface we build.",
+    "Seasonal weight restrictions and road standards in Livingston County are set by the <a href=\"https://livingstonroads.org/\">Livingston County Road Commission</a>; for hot-mix specifications we work to the <a href=\"https://www.apa-mi.org/\">Asphalt Pavement Association of Michigan</a> guidance."
+   ]
+  },
+  "steps": {
+   "h2": "The same five steps on every Fowlerville paving job.",
+   "items": [
+    {
+     "h": "Walk the site and quote",
+     "p": "We look at the ground, the access and the drainage, and give you a free, honest estimate for what the job actually needs."
+    },
+    {
+     "h": "Prepare the base",
+     "p": "Excavate to the right depth, correct soft ground with fabric and aggregate, and compact a base that will not move."
+    },
+    {
+     "h": "Grade for drainage",
+     "p": "Shape the surface so water sheds away from the house, the lake or the building, and toward ground that can take it."
+    },
+    {
+     "h": "Lay and compact the asphalt",
+     "p": "Hot mix placed at the right temperature and rolled to spec while it is workable, with clean edges and transitions."
+    },
+    {
+     "h": "Finish and protect",
+     "p": "Striping where needed, a clean site, and a sealing schedule so the surface stays tight through Michigan winters."
+    }
+   ]
+  },
+  "why": {
+   "h2": "Property owners in Fowlerville call us back for the same reasons.",
+   "items": [
+    {
+     "h": "Owner on every Fowlerville job",
+     "p": "From a village driveway to a long rural drive, the owner checks the base, the grading and the finish on site."
+    },
+    {
+     "h": "Family owned, 30+ years",
+     "p": "A second generation family business with three decades of paving in Michigan, built on honest advice and work we stand behind."
+    },
+    {
+     "h": "Free, honest estimates",
+     "p": "We come out, look at the ground and the access, and tell you what the job actually needs. No pressure, no surprises."
+    },
+    {
+     "h": "Built for rural use",
+     "p": "Long drives and private roads get a base built for real loads, including trucks and trailers, and grading that sheds water."
+    }
+   ]
+  },
+  "where": {
+   "h2": "Every neighborhood, every road.",
+   "paras": [
+    "We serve the Village of Fowlerville and the surrounding townships, including the village streets off Grand River Avenue, the subdivisions on the edge of town, the commercial properties near the I-96 interchange, and the rural roads toward Howell and Byron.",
+    "Anywhere in Fowlerville, call <a href=\"tel:+12488895357\">(248) 889-5357</a> or use the form below."
+   ],
+   "img": {
+    "src": "port_37",
+    "alt": "Completed asphalt project in Fowlerville, MI"
+   }
+  },
+  "faq": {
+   "h2": "Fowlerville paving questions, straight answers.",
+   "p": "The questions Fowlerville property owners ask us most, answered honestly.",
+   "items": [
+    {
+     "q": "Do you work in Fowlerville?",
+     "a": "<p>Yes. Fowlerville is part of our Livingston County service area, reached along I-96 and Grand River from Howell.</p>"
+    },
+    {
+     "q": "Can you pave a long rural driveway?",
+     "a": "<p>Yes. Long drives and private roads are a large part of our rural work. We build the base for the loads it will carry and grade it to drain.</p>"
+    },
+    {
+     "q": "How long does a driveway take in Fowlerville?",
+     "a": "<p>Most driveways are completed in one to two days depending on length and how much base work the ground needs. We confirm the schedule when we quote.</p>"
+    },
+    {
+     "q": "When can I drive on the new surface?",
+     "a": "<p>Foot traffic is usually fine within a day. We ask you to keep vehicles off for a few days while the asphalt cures, and we will confirm the exact timing for your job.</p>"
+    },
+    {
+     "q": "Do you provide free estimates in Fowlerville?",
+     "a": "<p>Yes. Every estimate is free. We come out, look at the driveway or lot and the access, and give you our honest recommendation while keeping your budget in mind.</p>"
+    }
+   ]
+  },
+  "nearby": {
+   "h2": "We also pave in towns next to Fowlerville.",
+   "p": "One crew, one standard, across Livingston County and the surrounding area.",
+   "slugs": [
+    "howell-mi",
+    "brighton-mi",
+    "pinckney-mi",
+    "byron-mi"
+   ]
+  },
+  "quote": {
+   "h2": "Ready to pave or sealcoat in Fowlerville?",
+   "p": "Tell us about the driveway or lot and we will come out and give you an honest, no-obligation estimate."
+  },
+  "cta": {
+   "h2": "Quality paving and unbeatable service in Fowlerville.",
+   "p": "Over 30 years of asphalt work in Michigan. Call today for your free Fowlerville estimate."
+  }
+ },
+ {
+  "slug": "goodrich-mi",
+  "name": "Goodrich",
+  "county": "Genesee",
+  "zips": [
+   "48438"
+  ],
+  "title": "Asphalt Paving in Goodrich, MI",
+  "description": "Driveway paving, parking lots, sealcoating & resurfacing in Goodrich, MI. Family owned 30+ years, owner supervised, free estimates. Call (248) 889-5357.",
+  "sub": "Driveways, parking lots, sealcoating and resurfacing in Goodrich. Family owned for over 30 years, owner supervised on every jobsite, free estimates.",
+  "banner": "resurfacing_banner",
+  "intro": {
+   "h2": "Family owned. Owner supervised. Goodrich driveways and lots.",
+   "paras": [
+    "Goodrich is a small village in Atlas Township in southeastern Genesee County, near M-15. Around the village, Atlas Township is mostly rural: wooded lots, large properties, long private drives and quiet country roads, with newer homes on bigger parcels.",
+    "For Asphalt Express LLC, Goodrich work is mostly residential: long driveways and private roads on large lots, replacement drives on the village’s established streets, and turnarounds and approaches to garages and outbuildings. We also pave, repair and sealcoat parking areas for local businesses, and offer asphalt millings where a full hot-mix surface is more than a long drive needs.",
+    "The owner is on every Goodrich job."
+   ],
+   "checks": [
+    "Free estimates anywhere in Goodrich",
+    "Owner on every jobsite",
+    "Residential driveways and commercial lots",
+    "Over 30 years in Michigan"
+   ],
+   "imgs": [
+    {
+     "src": "port_22",
+     "alt": "Asphalt driveway paving in Goodrich, Michigan by Asphalt Express LLC"
+    },
+    {
+     "src": "port_33",
+     "alt": "Asphalt Express crew working in Goodrich, MI"
+    }
+   ]
+  },
+  "services": {
+   "h2": "Paving services for Goodrich, MI.",
+   "p": "Every service we offer is available in Goodrich. Village lots, wooded properties and long country drives each need something a little different, and we do all of it with the same owner-supervised crew.",
+   "items": [
+    {
+     "slug": "asphalt-paving",
+     "name": "Asphalt Paving in Goodrich",
+     "text": "New asphalt surfaces for driveways, private roads and parking areas, from excavation and base construction through hot-mix installation and compaction. On Goodrich’s larger, wooded lots that means a base built for long runs and good drainage, finished cleanly against lawns and tree lines."
+    },
+    {
+     "slug": "commercial-parking-lots",
+     "name": "Commercial Parking Lots in Goodrich",
+     "text": "Parking lot paving, resurfacing, repair, sealcoating and line striping for businesses of every size. For Goodrich-area businesses we schedule the work so the lot stays usable and the job is done quickly."
+    },
+    {
+     "slug": "sealcoating-maintenance",
+     "name": "Sealcoating & Maintenance in Goodrich",
+     "text": "Protective sealcoating, crack filling and routine maintenance that keep water out of the base and extend the life of the surface. On shaded, wooded drives that stay damp, sealcoating and crack filling are the most cost-effective way to make the surface last."
+    },
+    {
+     "slug": "asphalt-resurfacing",
+     "name": "Asphalt Resurfacing in Goodrich",
+     "text": "A new wearing course over an existing surface whose base is still sound, restoring a worn driveway or lot to like-new condition. Where a Goodrich driveway has a sound base under a worn surface, resurfacing restores it for far less than replacement."
+    },
+    {
+     "slug": "residential-paving",
+     "name": "Residential Paving in Goodrich",
+     "text": "Driveways, walkways, private roads and turnarounds for homeowners, built to carry real use and finished to match the property. In Goodrich that includes long private drives, turnarounds and approaches to garages and outbuildings."
+    },
+    {
+     "slug": "asphalt-millings",
+     "name": "Asphalt Millings in Goodrich",
+     "text": "Recycled asphalt pavement, delivered, graded and compacted into a firm, dark surface for drives, yards and parking areas. For a long country drive in Atlas Township, millings give a firm, dust-free surface at a fraction of the cost."
+    },
+    {
+     "slug": "removal-replacement",
+     "name": "Removal & Replacement in Goodrich",
+     "text": "Complete removal of a failed surface, correction and recompaction of the base, and installation of new asphalt. Where an old drive has broken up and the base has failed, removal and replacement is usually the honest answer."
+    },
+    {
+     "slug": "parking-lot-repair",
+     "name": "Parking Lot Repair in Goodrich",
+     "text": "Pothole repair and patching, crack filling and sealing, surface leveling and line striping for existing lots. Potholes and failed sections are repaired properly so they do not come back next season."
+    }
+   ]
+  },
+  "local": {
+   "h2": "Paving in Goodrich: the ground and the weather.",
+   "paras": [
+    "Wooded lots around Goodrich keep drives shaded and damp, and tree roots and soft spots can undermine a thin base. We excavate to the depth the ground needs, correct soft ground with fabric and aggregate, and grade so water leaves the surface.",
+    "Genesee County winters bring deep frost and heavy plowing, and shaded drives stay frozen longer. Annual crack filling and sealcoating every two to three years are the most cost-effective protection.",
+    "Seasonal weight restrictions and road standards in Genesee County are set by the <a href=\"https://www.gcrc.org/\">Genesee County Road Commission</a>; for hot-mix specifications we work to the <a href=\"https://www.apa-mi.org/\">Asphalt Pavement Association of Michigan</a> guidance."
+   ]
+  },
+  "steps": {
+   "h2": "The same five steps on every Goodrich paving job.",
+   "items": [
+    {
+     "h": "Walk the site and quote",
+     "p": "We look at the ground, the access and the drainage, and give you a free, honest estimate for what the job actually needs."
+    },
+    {
+     "h": "Prepare the base",
+     "p": "Excavate to the right depth, correct soft ground with fabric and aggregate, and compact a base that will not move."
+    },
+    {
+     "h": "Grade for drainage",
+     "p": "Shape the surface so water sheds away from the house, the lake or the building, and toward ground that can take it."
+    },
+    {
+     "h": "Lay and compact the asphalt",
+     "p": "Hot mix placed at the right temperature and rolled to spec while it is workable, with clean edges and transitions."
+    },
+    {
+     "h": "Finish and protect",
+     "p": "Striping where needed, a clean site, and a sealing schedule so the surface stays tight through Michigan winters."
+    }
+   ]
+  },
+  "why": {
+   "h2": "Property owners in Goodrich call us back for the same reasons.",
+   "items": [
+    {
+     "h": "Owner on every Goodrich job",
+     "p": "Long and wooded drives succeed or fail at the base. The owner checks the ground, the base and the drainage on site."
+    },
+    {
+     "h": "Family owned, 30+ years",
+     "p": "A second generation family business with three decades of paving in Michigan, built on honest advice and work we stand behind."
+    },
+    {
+     "h": "Free, honest estimates",
+     "p": "We come out, look at the ground and the access, and tell you what the job actually needs. No pressure, no surprises."
+    },
+    {
+     "h": "Careful on wooded lots",
+     "p": "We plan access before the day, work around trees and landscaping, and leave the site clean."
+    }
+   ]
+  },
+  "where": {
+   "h2": "Every neighborhood, every road.",
+   "paras": [
+    "We serve the Village of Goodrich and the surrounding Atlas Township area, including the village streets, the wooded and rural properties around the village, and the country roads toward Grand Blanc, Ortonville and Holly.",
+    "Anywhere in Goodrich, call <a href=\"tel:+12488895357\">(248) 889-5357</a> or use the form below."
+   ],
+   "img": {
+    "src": "port_32",
+    "alt": "Completed asphalt project in Goodrich, MI"
+   }
+  },
+  "faq": {
+   "h2": "Goodrich paving questions, straight answers.",
+   "p": "The questions Goodrich property owners ask us most, answered honestly.",
+   "items": [
+    {
+     "q": "Do you work in Goodrich?",
+     "a": "<p>Yes. Goodrich is part of our Genesee County service area, and we schedule work there with the same crew that covers Grand Blanc and Ortonville.</p>"
+    },
+    {
+     "q": "Can you pave a long wooded driveway?",
+     "a": "<p>Yes. We plan access around the trees, build the base for the ground, and grade the drive so water runs off instead of soaking in.</p>"
+    },
+    {
+     "q": "How long does a driveway take in Goodrich?",
+     "a": "<p>Most driveways are completed in one to two days depending on length and how much base work the ground needs. We confirm the schedule when we quote.</p>"
+    },
+    {
+     "q": "When can I drive on the new surface?",
+     "a": "<p>Foot traffic is usually fine within a day. We ask you to keep vehicles off for a few days while the asphalt cures, and we will confirm the exact timing for your job.</p>"
+    },
+    {
+     "q": "Do you provide free estimates in Goodrich?",
+     "a": "<p>Yes. Every estimate is free. We come out, look at the ground and the access, and give you our honest recommendation while keeping your budget in mind.</p>"
+    }
+   ]
+  },
+  "nearby": {
+   "h2": "We also pave in towns next to Goodrich.",
+   "p": "One crew, one standard, across Genesee County and the surrounding area.",
+   "slugs": [
+    "grand-blanc-mi",
+    "burton-mi",
+    "ortonville-mi",
+    "holly-mi"
+   ]
+  },
+  "quote": {
+   "h2": "Ready to pave or sealcoat in Goodrich?",
+   "p": "Tell us about the driveway or lot and we will come out and give you an honest, no-obligation estimate."
+  },
+  "cta": {
+   "h2": "Quality paving and unbeatable service in Goodrich.",
+   "p": "Over 30 years of asphalt work in Michigan. Call today for your free Goodrich estimate."
+  }
+ },
+ {
+  "slug": "grand-blanc-mi",
+  "name": "Grand Blanc",
+  "county": "Genesee",
+  "zips": [
+   "48439"
+  ],
+  "title": "Asphalt Paving in Grand Blanc, MI",
+  "description": "Driveway paving, parking lots, sealcoating & resurfacing in Grand Blanc, MI. Family owned 30+ years, owner supervised, free estimates. Call (248) 889-5357.",
+  "sub": "Driveways, parking lots, sealcoating and resurfacing in Grand Blanc. Family owned for over 30 years, owner supervised on every jobsite, free estimates.",
+  "banner": "commercial_banner",
+  "intro": {
+   "h2": "Family owned. Owner supervised. Grand Blanc driveways and lots.",
+   "paras": [
+    "Grand Blanc is a city and surrounding township just south of Flint in Genesee County, along I-75 and Saginaw Street. The city has established neighborhoods around its downtown, and the township has grown with subdivisions, larger lots, and a wide range of offices, medical buildings, shops and restaurants.",
+    "That mix keeps Asphalt Express LLC busy in Grand Blanc on both sides of the business. For homeowners we build new drives in the subdivisions, replace and resurface older drives in the established neighborhoods, and pave longer drives on larger lots. For businesses, churches and associations we pave, repair, sealcoat and stripe parking lots, phased so the property stays open.",
+    "The owner is on every Grand Blanc job."
+   ],
+   "checks": [
+    "Free estimates anywhere in Grand Blanc",
+    "Owner on every jobsite",
+    "Residential driveways and commercial lots",
+    "Over 30 years in Michigan"
+   ],
+   "imgs": [
+    {
+     "src": "port_16",
+     "alt": "Asphalt driveway paving in Grand Blanc, Michigan by Asphalt Express LLC"
+    },
+    {
+     "src": "port_30",
+     "alt": "Asphalt Express crew working in Grand Blanc, MI"
+    }
+   ]
+  },
+  "services": {
+   "h2": "Paving services for Grand Blanc, MI.",
+   "p": "Every service we offer is available in Grand Blanc. Subdivisions, established neighborhoods and busy commercial lots each need something a little different, and we do all of it with the same owner-supervised crew.",
+   "items": [
+    {
+     "slug": "asphalt-paving",
+     "name": "Asphalt Paving in Grand Blanc",
+     "text": "New asphalt surfaces for driveways, private roads and parking areas, from excavation and base construction through hot-mix installation and compaction. In Grand Blanc that ranges from a new subdivision drive to a full commercial lot, each built on a properly compacted base and graded to drain."
+    },
+    {
+     "slug": "commercial-parking-lots",
+     "name": "Commercial Parking Lots in Grand Blanc",
+     "text": "Parking lot paving, resurfacing, repair, sealcoating and line striping for businesses of every size. For Grand Blanc businesses, offices and associations, we phase the work so the lot stays open and people keep parking."
+    },
+    {
+     "slug": "sealcoating-maintenance",
+     "name": "Sealcoating & Maintenance in Grand Blanc",
+     "text": "Protective sealcoating, crack filling and routine maintenance that keep water out of the base and extend the life of the surface. For Grand Blanc driveways and busy lots, a regular sealing and striping cycle keeps the surface tight and the lot clearly laid out."
+    },
+    {
+     "slug": "asphalt-resurfacing",
+     "name": "Asphalt Resurfacing in Grand Blanc",
+     "text": "A new wearing course over an existing surface whose base is still sound, restoring a worn driveway or lot to like-new condition. Where a Grand Blanc drive or lot has a sound base under a worn surface, resurfacing restores it for far less than replacement."
+    },
+    {
+     "slug": "residential-paving",
+     "name": "Residential Paving in Grand Blanc",
+     "text": "Driveways, walkways, private roads and turnarounds for homeowners, built to carry real use and finished to match the property. In Grand Blanc that means subdivision drives, older neighborhood driveways and longer drives on larger lots, finished to match the home."
+    },
+    {
+     "slug": "asphalt-millings",
+     "name": "Asphalt Millings in Grand Blanc",
+     "text": "Recycled asphalt pavement, delivered, graded and compacted into a firm, dark surface for drives, yards and parking areas. For a long drive or overflow parking on a larger Grand Blanc property, millings are a durable, affordable alternative."
+    },
+    {
+     "slug": "removal-replacement",
+     "name": "Removal & Replacement in Grand Blanc",
+     "text": "Complete removal of a failed surface, correction and recompaction of the base, and installation of new asphalt. For older driveways and lots where patches are failing on top of patches, replacement gives you a surface that will last."
+    },
+    {
+     "slug": "parking-lot-repair",
+     "name": "Parking Lot Repair in Grand Blanc",
+     "text": "Pothole repair and patching, crack filling and sealing, surface leveling and line striping for existing lots. For Grand Blanc businesses that means prompt pothole and section repairs and fresh striping so the lot stays safe."
+    }
+   ]
+  },
+  "local": {
+   "h2": "Paving in Grand Blanc: the ground and the weather.",
+   "paras": [
+    "Much of the ground around Grand Blanc is clay that holds water, and a base that stays saturated will heave in winter and rut in spring. We excavate to the depth the ground needs, add drainage aggregate and fabric where the site demands it, and grade every surface so water has somewhere to go.",
+    "Busy commercial lots take heavy traffic, plows and salt all winter. Prompt crack filling and pothole repair, with sealcoating every two to three years, keeps small problems from turning into full replacement.",
+    "Seasonal weight restrictions and road standards in Genesee County are set by the <a href=\"https://www.gcrc.org/\">Genesee County Road Commission</a>; for hot-mix specifications we work to the <a href=\"https://www.apa-mi.org/\">Asphalt Pavement Association of Michigan</a> guidance."
+   ]
+  },
+  "steps": {
+   "h2": "The same five steps on every Grand Blanc paving job.",
+   "items": [
+    {
+     "h": "Walk the site and quote",
+     "p": "We look at the ground, the access and the drainage, and give you a free, honest estimate for what the job actually needs."
+    },
+    {
+     "h": "Prepare the base",
+     "p": "Excavate to the right depth, correct soft ground with fabric and aggregate, and compact a base that will not move."
+    },
+    {
+     "h": "Grade for drainage",
+     "p": "Shape the surface so water sheds away from the house, the lake or the building, and toward ground that can take it."
+    },
+    {
+     "h": "Lay and compact the asphalt",
+     "p": "Hot mix placed at the right temperature and rolled to spec while it is workable, with clean edges and transitions."
+    },
+    {
+     "h": "Finish and protect",
+     "p": "Striping where needed, a clean site, and a sealing schedule so the surface stays tight through Michigan winters."
+    }
+   ]
+  },
+  "why": {
+   "h2": "Property owners in Grand Blanc call us back for the same reasons.",
+   "items": [
+    {
+     "h": "Owner on every Grand Blanc job",
+     "p": "From a subdivision driveway to a commercial lot, the owner checks the base, the grading and the finish on site."
+    },
+    {
+     "h": "Family owned, 30+ years",
+     "p": "A second generation family business with three decades of paving in Michigan, built on honest advice and work we stand behind."
+    },
+    {
+     "h": "Free, honest estimates",
+     "p": "We come out, look at the ground and the access, and tell you what the job actually needs. No pressure, no surprises."
+    },
+    {
+     "h": "Commercial lots, phased",
+     "p": "We plan commercial work around your hours and phase the lot so customers, patients and staff can keep parking."
+    }
+   ]
+  },
+  "where": {
+   "h2": "Every neighborhood, every road.",
+   "paras": [
+    "We serve the City of Grand Blanc and Grand Blanc Township, including downtown and the neighborhoods off Saginaw Street, the subdivisions across the township, the commercial and office properties near I-75 and Holly Road, and the larger lots toward Goodrich and Holly.",
+    "Anywhere in Grand Blanc, call <a href=\"tel:+12488895357\">(248) 889-5357</a> or use the form below."
+   ],
+   "img": {
+    "src": "port_20",
+    "alt": "Completed asphalt project in Grand Blanc, MI"
+   }
+  },
+  "faq": {
+   "h2": "Grand Blanc paving questions, straight answers.",
+   "p": "The questions Grand Blanc property owners ask us most, answered honestly.",
+   "items": [
+    {
+     "q": "Do you work in Grand Blanc?",
+     "a": "<p>Yes. Grand Blanc is part of our Genesee County service area, reached up I-75 and US-23, and we schedule work there regularly.</p>"
+    },
+    {
+     "q": "Can you pave our parking lot without closing it?",
+     "a": "<p>Usually, yes. We phase commercial lots in sections or schedule evenings and weekends so the property stays open.</p>"
+    },
+    {
+     "q": "How long does a driveway take in Grand Blanc?",
+     "a": "<p>Most residential driveways are completed in a single day. Removal and replacement with base work can take two. We confirm the schedule when we quote.</p>"
+    },
+    {
+     "q": "When can I drive on the new surface?",
+     "a": "<p>Foot traffic is usually fine within a day. We ask you to keep vehicles off for a few days while the asphalt cures, and we will confirm the exact timing for your job.</p>"
+    },
+    {
+     "q": "Do you provide free estimates in Grand Blanc?",
+     "a": "<p>Yes. Every estimate is free. We come out, look at the driveway or lot and the access, and give you our honest recommendation while keeping your budget in mind.</p>"
+    }
+   ]
+  },
+  "nearby": {
+   "h2": "We also pave in towns next to Grand Blanc.",
+   "p": "One crew, one standard, across Genesee County and the surrounding area.",
+   "slugs": [
+    "burton-mi",
+    "goodrich-mi",
+    "fenton-mi",
+    "holly-mi"
+   ]
+  },
+  "quote": {
+   "h2": "Ready to pave or sealcoat in Grand Blanc?",
+   "p": "Tell us about the driveway or lot and we will come out and give you an honest, no-obligation estimate."
+  },
+  "cta": {
+   "h2": "Quality paving and unbeatable service in Grand Blanc.",
+   "p": "Over 30 years of asphalt work in Michigan. Call today for your free Grand Blanc estimate."
+  }
+ },
+ {
   "slug": "hartland-mi",
   "name": "Hartland",
   "county": "Livingston",
@@ -2496,6 +3453,197 @@
   "cta": {
    "h2": "Quality paving and unbeatable service in Hartland.",
    "p": "Over 30 years of asphalt work across Livingston County. Call today for your free Hartland estimate."
+  }
+ },
+ {
+  "slug": "hartland-township-mi",
+  "name": "Hartland Township",
+  "county": "Livingston",
+  "zips": [
+   "48353"
+  ],
+  "title": "Asphalt Paving in Hartland Township, MI",
+  "description": "Driveway paving, parking lots, sealcoating & resurfacing in Hartland Township, MI. Family owned 30+ years, owner supervised, free estimates. Call (248) 889-5357.",
+  "sub": "Driveways, parking lots, sealcoating and resurfacing in Hartland Township. Family owned for over 30 years, owner supervised on every jobsite, free estimates.",
+  "banner": "sealcoating_banner",
+  "intro": {
+   "h2": "Family owned. Owner supervised. Hartland Township driveways and lots.",
+   "paras": [
+    "Hartland Township covers a wide area of northeastern Livingston County, from the busy M-59 and US-23 corridor to quiet country roads, horse farms, wooded parcels and lake properties, including the historic community of Parshallville in the township’s north. It sits just west of our Highland base.",
+    "Across the township, Asphalt Express LLC builds long rural drives and private roads, replaces and resurfaces drives in the established subdivisions, and paves, repairs and sealcoats parking lots for the businesses, offices and churches along the main corridors. For long country drives we offer asphalt millings as a durable, affordable option.",
+    "The owner is on every Hartland Township job."
+   ],
+   "checks": [
+    "Free estimates anywhere in Hartland Township",
+    "Owner on every jobsite",
+    "Residential driveways and commercial lots",
+    "Over 30 years in Michigan"
+   ],
+   "imgs": [
+    {
+     "src": "port_38",
+     "alt": "Asphalt driveway paving in Hartland Township, Michigan by Asphalt Express LLC"
+    },
+    {
+     "src": "port_23",
+     "alt": "Asphalt Express crew working in Hartland Township, MI"
+    }
+   ]
+  },
+  "services": {
+   "h2": "Paving services for Hartland Township, MI.",
+   "p": "Every service we offer is available throughout Hartland Township. Country drives, subdivisions, lake lots and commercial properties each need something a little different, and we do all of it with the same owner-supervised crew.",
+   "items": [
+    {
+     "slug": "asphalt-paving",
+     "name": "Asphalt Paving in Hartland Township",
+     "text": "New asphalt surfaces for driveways, private roads and parking areas, from excavation and base construction through hot-mix installation and compaction. Across Hartland Township that ranges from a long country drive built for trucks and trailers to a subdivision drive tied cleanly into the street."
+    },
+    {
+     "slug": "commercial-parking-lots",
+     "name": "Commercial Parking Lots in Hartland Township",
+     "text": "Parking lot paving, resurfacing, repair, sealcoating and line striping for businesses of every size. For businesses along the township’s main corridors, we phase the work so the lot stays open and customers keep parking."
+    },
+    {
+     "slug": "sealcoating-maintenance",
+     "name": "Sealcoating & Maintenance in Hartland Township",
+     "text": "Protective sealcoating, crack filling and routine maintenance that keep water out of the base and extend the life of the surface. On long, exposed township drives and busy commercial lots, regular sealing and crack filling keep water and frost out of the base."
+    },
+    {
+     "slug": "asphalt-resurfacing",
+     "name": "Asphalt Resurfacing in Hartland Township",
+     "text": "A new wearing course over an existing surface whose base is still sound, restoring a worn driveway or lot to like-new condition. Where a drive or lot in the township has a sound base under a worn surface, resurfacing restores it for far less than replacement."
+    },
+    {
+     "slug": "residential-paving",
+     "name": "Residential Paving in Hartland Township",
+     "text": "Driveways, walkways, private roads and turnarounds for homeowners, built to carry real use and finished to match the property. In Hartland Township that includes long private drives, turnarounds, farm approaches and subdivision driveways."
+    },
+    {
+     "slug": "asphalt-millings",
+     "name": "Asphalt Millings in Hartland Township",
+     "text": "Recycled asphalt pavement, delivered, graded and compacted into a firm, dark surface for drives, yards and parking areas. For a long country drive or a yard around outbuildings, millings give a firm, dust-free surface at a fraction of the cost."
+    },
+    {
+     "slug": "removal-replacement",
+     "name": "Removal & Replacement in Hartland Township",
+     "text": "Complete removal of a failed surface, correction and recompaction of the base, and installation of new asphalt. Where an old drive has broken up and the base has failed, removal and replacement is usually the honest answer."
+    },
+    {
+     "slug": "parking-lot-repair",
+     "name": "Parking Lot Repair in Hartland Township",
+     "text": "Pothole repair and patching, crack filling and sealing, surface leveling and line striping for existing lots. For township businesses that means prompt pothole and section repairs that keep the lot safe."
+    }
+   ]
+  },
+  "local": {
+   "h2": "Paving in Hartland Township: the ground and the weather.",
+   "paras": [
+    "Ground across Hartland Township changes from parcel to parcel, from well-drained rises to wet, low ground near the lakes and wetlands. We assess each site, excavate to the depth it needs, and grade long drives so water leaves the surface instead of running down it.",
+    "Rural drives here take the full force of Michigan winters: drifting snow, deep frost and heavy plowing. Annual crack filling and sealcoating every two to three years are the most cost-effective protection.",
+    "Seasonal weight restrictions and road standards in Livingston County are set by the <a href=\"https://livingstonroads.org/\">Livingston County Road Commission</a>; for hot-mix specifications we work to the <a href=\"https://www.apa-mi.org/\">Asphalt Pavement Association of Michigan</a> guidance."
+   ]
+  },
+  "steps": {
+   "h2": "The same five steps on every Hartland Township paving job.",
+   "items": [
+    {
+     "h": "Walk the site and quote",
+     "p": "We look at the ground, the access and the drainage, and give you a free, honest estimate for what the job actually needs."
+    },
+    {
+     "h": "Prepare the base",
+     "p": "Excavate to the right depth, correct soft ground with fabric and aggregate, and compact a base that will not move."
+    },
+    {
+     "h": "Grade for drainage",
+     "p": "Shape the surface so water sheds away from the house, the lake or the building, and toward ground that can take it."
+    },
+    {
+     "h": "Lay and compact the asphalt",
+     "p": "Hot mix placed at the right temperature and rolled to spec while it is workable, with clean edges and transitions."
+    },
+    {
+     "h": "Finish and protect",
+     "p": "Striping where needed, a clean site, and a sealing schedule so the surface stays tight through Michigan winters."
+    }
+   ]
+  },
+  "why": {
+   "h2": "Property owners in Hartland Township call us back for the same reasons.",
+   "items": [
+    {
+     "h": "Owner on every Hartland Township job",
+     "p": "Long country drives and lake lots succeed or fail at the base. The owner checks the ground, the base and the drainage on site."
+    },
+    {
+     "h": "Family owned, 30+ years",
+     "p": "A second generation family business with three decades of paving in Michigan, built on honest advice and work we stand behind."
+    },
+    {
+     "h": "Free, honest estimates",
+     "p": "We come out, look at the ground and the access, and tell you what the job actually needs. No pressure, no surprises."
+    },
+    {
+     "h": "Close to home",
+     "p": "Hartland Township borders our Highland base, so estimates and scheduling here are among the quickest we offer."
+    }
+   ]
+  },
+  "where": {
+   "h2": "Every neighborhood, every road.",
+   "paras": [
+    "We serve all of Hartland Township, including Parshallville, the subdivisions and businesses around the M-59 and US-23 interchange, the lake and wooded properties, and the country roads toward Highland, Fenton, Byron and Howell.",
+    "Anywhere in Hartland Township, call <a href=\"tel:+12488895357\">(248) 889-5357</a> or use the form below."
+   ],
+   "img": {
+    "src": "port_31",
+    "alt": "Completed asphalt project in Hartland Township, MI"
+   }
+  },
+  "faq": {
+   "h2": "Hartland Township paving questions, straight answers.",
+   "p": "The questions Hartland Township property owners ask us most, answered honestly.",
+   "items": [
+    {
+     "q": "How quickly can you reach a Hartland Township job?",
+     "a": "<p>Quickly. The township borders our Highland base along M-59, so estimates and scheduling here are among the fastest we offer.</p>"
+    },
+    {
+     "q": "Can you pave a long country driveway?",
+     "a": "<p>Yes. Long drives and private roads are a large part of our rural work. We build the base for the loads it will carry and grade it to drain.</p>"
+    },
+    {
+     "q": "How long does a driveway take in Hartland Township?",
+     "a": "<p>Most driveways are completed in one to two days depending on length and how much base work the ground needs. We confirm the schedule when we quote.</p>"
+    },
+    {
+     "q": "When can I drive on the new surface?",
+     "a": "<p>Foot traffic is usually fine within a day. We ask you to keep vehicles off for a few days while the asphalt cures, and we will confirm the exact timing for your job.</p>"
+    },
+    {
+     "q": "Do you provide free estimates in Hartland Township?",
+     "a": "<p>Yes. Every estimate is free. We come out, look at the ground and the access, and give you our honest recommendation while keeping your budget in mind.</p>"
+    }
+   ]
+  },
+  "nearby": {
+   "h2": "We also pave in towns next to Hartland Township.",
+   "p": "One crew, one standard, across Livingston County and the surrounding area.",
+   "slugs": [
+    "hartland-mi",
+    "highland-mi",
+    "fenton-mi",
+    "howell-mi"
+   ]
+  },
+  "quote": {
+   "h2": "Ready to pave or sealcoat in Hartland Township?",
+   "p": "Tell us about the driveway or lot and we will come out and give you an honest, no-obligation estimate."
+  },
+  "cta": {
+   "h2": "Quality paving and unbeatable service in Hartland Township.",
+   "p": "Over 30 years of asphalt work in Michigan. Call today for your free Hartland Township estimate."
   }
  },
  {
@@ -3266,6 +4414,197 @@
   "cta": {
    "h2": "Quality paving and unbeatable service in Lake Orion.",
    "p": "Over 30 years of asphalt work across Oakland County. Call today for your free Lake Orion estimate."
+  }
+ },
+ {
+  "slug": "linden-mi",
+  "name": "Linden",
+  "county": "Genesee",
+  "zips": [
+   "48451"
+  ],
+  "title": "Asphalt Paving in Linden, MI",
+  "description": "Driveway paving, parking lots, sealcoating & resurfacing in Linden, MI. Family owned 30+ years, owner supervised, free estimates. Call (248) 889-5357.",
+  "sub": "Driveways, parking lots, sealcoating and resurfacing in Linden. Family owned for over 30 years, owner supervised on every jobsite, free estimates.",
+  "banner": "removal_banner",
+  "intro": {
+   "h2": "Family owned. Owner supervised. Linden driveways and lots.",
+   "paras": [
+    "Linden is a small city in southwestern Genesee County, west of Fenton, built around the Shiawassee River and its mill pond. Around the city, the townships are a mix of lake properties, wooded lots, newer subdivisions and rural roads.",
+    "In Linden, Asphalt Express LLC replaces and resurfaces drives on the city’s established streets, builds new drives in the subdivisions, and paves lake-lot and rural drives on the larger properties around town. We also pave, repair, sealcoat and stripe parking lots for local businesses, phased so the business stays open.",
+    "The owner is on every Linden job."
+   ],
+   "checks": [
+    "Free estimates anywhere in Linden",
+    "Owner on every jobsite",
+    "Residential driveways and commercial lots",
+    "Over 30 years in Michigan"
+   ],
+   "imgs": [
+    {
+     "src": "port_39",
+     "alt": "Asphalt driveway paving in Linden, Michigan by Asphalt Express LLC"
+    },
+    {
+     "src": "port_13",
+     "alt": "Asphalt Express crew working in Linden, MI"
+    }
+   ]
+  },
+  "services": {
+   "h2": "Paving services for Linden, MI.",
+   "p": "Every service we offer is available in Linden. City lots, lake properties and rural drives each need something a little different, and we do all of it with the same owner-supervised crew.",
+   "items": [
+    {
+     "slug": "asphalt-paving",
+     "name": "Asphalt Paving in Linden",
+     "text": "New asphalt surfaces for driveways, private roads and parking areas, from excavation and base construction through hot-mix installation and compaction. On Linden’s lake and low-lying lots that means a base built for wet ground and a surface graded to shed water away from the house."
+    },
+    {
+     "slug": "commercial-parking-lots",
+     "name": "Commercial Parking Lots in Linden",
+     "text": "Parking lot paving, resurfacing, repair, sealcoating and line striping for businesses of every size. For Linden businesses we phase the work so the lot stays open and customers keep parking."
+    },
+    {
+     "slug": "sealcoating-maintenance",
+     "name": "Sealcoating & Maintenance in Linden",
+     "text": "Protective sealcoating, crack filling and routine maintenance that keep water out of the base and extend the life of the surface. On shaded, damp lake drives, sealcoating and crack filling are the most cost-effective way to make the surface last."
+    },
+    {
+     "slug": "asphalt-resurfacing",
+     "name": "Asphalt Resurfacing in Linden",
+     "text": "A new wearing course over an existing surface whose base is still sound, restoring a worn driveway or lot to like-new condition. Where a Linden drive has a sound base under a worn surface, resurfacing restores it for far less than replacement."
+    },
+    {
+     "slug": "residential-paving",
+     "name": "Residential Paving in Linden",
+     "text": "Driveways, walkways, private roads and turnarounds for homeowners, built to carry real use and finished to match the property. In Linden that includes city driveways, subdivision drives, and narrow or sloped lake-lot drives built for winter traction."
+    },
+    {
+     "slug": "asphalt-millings",
+     "name": "Asphalt Millings in Linden",
+     "text": "Recycled asphalt pavement, delivered, graded and compacted into a firm, dark surface for drives, yards and parking areas. For a long access drive or parking area on a larger property near Linden, millings give a firm, dust-free surface at a fraction of the cost."
+    },
+    {
+     "slug": "removal-replacement",
+     "name": "Removal & Replacement in Linden",
+     "text": "Complete removal of a failed surface, correction and recompaction of the base, and installation of new asphalt. Where a thin old drive has broken up on wet ground, removal and replacement is usually the honest answer."
+    },
+    {
+     "slug": "parking-lot-repair",
+     "name": "Parking Lot Repair in Linden",
+     "text": "Pothole repair and patching, crack filling and sealing, surface leveling and line striping for existing lots. For Linden businesses that means prompt pothole and section repairs that keep the lot safe."
+    }
+   ]
+  },
+  "local": {
+   "h2": "Paving in Linden: the ground and the weather.",
+   "paras": [
+    "Ground near the river, the mill pond and the area’s lakes is often wet, and a driveway base that stays saturated will heave every winter. On those lots we excavate deeper, add drainage aggregate and geotextile fabric, and grade the surface so runoff has a proper path away from the house.",
+    "Genesee County winters are hard on asphalt, and shaded lake and rural drives stay frozen longer. Annual crack filling and sealcoating every two to three years are the most cost-effective protection.",
+    "Seasonal weight restrictions and road standards in Genesee County are set by the <a href=\"https://www.gcrc.org/\">Genesee County Road Commission</a>; for hot-mix specifications we work to the <a href=\"https://www.apa-mi.org/\">Asphalt Pavement Association of Michigan</a> guidance."
+   ]
+  },
+  "steps": {
+   "h2": "The same five steps on every Linden paving job.",
+   "items": [
+    {
+     "h": "Walk the site and quote",
+     "p": "We look at the ground, the access and the drainage, and give you a free, honest estimate for what the job actually needs."
+    },
+    {
+     "h": "Prepare the base",
+     "p": "Excavate to the right depth, correct soft ground with fabric and aggregate, and compact a base that will not move."
+    },
+    {
+     "h": "Grade for drainage",
+     "p": "Shape the surface so water sheds away from the house, the lake or the building, and toward ground that can take it."
+    },
+    {
+     "h": "Lay and compact the asphalt",
+     "p": "Hot mix placed at the right temperature and rolled to spec while it is workable, with clean edges and transitions."
+    },
+    {
+     "h": "Finish and protect",
+     "p": "Striping where needed, a clean site, and a sealing schedule so the surface stays tight through Michigan winters."
+    }
+   ]
+  },
+  "why": {
+   "h2": "Property owners in Linden call us back for the same reasons.",
+   "items": [
+    {
+     "h": "Owner on every Linden job",
+     "p": "Wet ground is where a driveway either lasts or fails, and it is decided at the base. The owner checks the ground, the base and the drainage on site."
+    },
+    {
+     "h": "Family owned, 30+ years",
+     "p": "A second generation family business with three decades of paving in Michigan, built on honest advice and work we stand behind."
+    },
+    {
+     "h": "Free, honest estimates",
+     "p": "We come out, look at the ground and the access, and tell you what the job actually needs. No pressure, no surprises."
+    },
+    {
+     "h": "Built for wet ground",
+     "p": "Deeper excavation, drainage aggregate and geotextile fabric where the site demands it. That is the difference between a drive that lasts and one that heaves."
+    }
+   ]
+  },
+  "where": {
+   "h2": "Every neighborhood, every road.",
+   "paras": [
+    "We serve the City of Linden and the surrounding area, including the established streets around downtown and the mill pond, the subdivisions on the edge of town, the lake properties, and the rural roads toward Fenton, Byron and Holly.",
+    "Anywhere in Linden, call <a href=\"tel:+12488895357\">(248) 889-5357</a> or use the form below."
+   ],
+   "img": {
+    "src": "port_36",
+    "alt": "Completed asphalt project in Linden, MI"
+   }
+  },
+  "faq": {
+   "h2": "Linden paving questions, straight answers.",
+   "p": "The questions Linden property owners ask us most, answered honestly.",
+   "items": [
+    {
+     "q": "Do you work in Linden?",
+     "a": "<p>Yes. Linden is part of our Genesee County service area, and we schedule work there with the same crew that covers nearby Fenton.</p>"
+    },
+    {
+     "q": "Can you pave a lakefront drive?",
+     "a": "<p>Yes. We build the base for wet ground, grade for drainage and finish for traction, which is what makes a lake drive last.</p>"
+    },
+    {
+     "q": "How long does a driveway take in Linden?",
+     "a": "<p>Most driveways are completed in one to two days depending on access and how much base work the ground needs. We confirm the schedule when we quote.</p>"
+    },
+    {
+     "q": "When can I drive on the new surface?",
+     "a": "<p>Foot traffic is usually fine within a day. We ask you to keep vehicles off for a few days while the asphalt cures, and we will confirm the exact timing for your job.</p>"
+    },
+    {
+     "q": "Do you provide free estimates in Linden?",
+     "a": "<p>Yes. Every estimate is free. We come out, look at the ground and the access, and give you our honest recommendation while keeping your budget in mind.</p>"
+    }
+   ]
+  },
+  "nearby": {
+   "h2": "We also pave in towns next to Linden.",
+   "p": "One crew, one standard, across Genesee County and the surrounding area.",
+   "slugs": [
+    "fenton-mi",
+    "byron-mi",
+    "holly-mi",
+    "hartland-township-mi"
+   ]
+  },
+  "quote": {
+   "h2": "Ready to pave or sealcoat in Linden?",
+   "p": "Tell us about the driveway or lot and we will come out and give you an honest, no-obligation estimate."
+  },
+  "cta": {
+   "h2": "Quality paving and unbeatable service in Linden.",
+   "p": "Over 30 years of asphalt work in Michigan. Call today for your free Linden estimate."
   }
  },
  {

@@ -94,7 +94,7 @@ const current = (h: string) => (path.startsWith(h) || (h === '/services/' && ser
       <ul>
         <li>Free Estimates</li>
         <li>Owner Supervised On Every Jobsite</li>
-        <li>{b.years}+ Years in Southeast Michigan</li>
+        <li>{b.years}+ Years in Michigan</li>
       </ul>
       <div class="topbar__right">
         <a href={b.facebook} rel="noopener">Facebook</a>
@@ -105,7 +105,7 @@ const current = (h: string) => (path.startsWith(h) || (h === '/services/' && ser
   <header class="header">
     <div class="wrap header__in">
       <a class="brand" href="/" aria-label={`${b.legalName} home`}>
-        <Image src={logo} alt={b.legalName} width={272} loading="eager" />
+        <Image src={logo} alt={b.legalName} width={384} loading="eager" />
       </a>
       <nav class="nav" aria-label="Main">
         <div class="nav__drop">
@@ -117,7 +117,7 @@ const current = (h: string) => (path.startsWith(h) || (h === '/services/' && ser
         {nav.slice(1).map((n) => <a href={n.href} aria-current={current(n.href)}>{n.label}</a>)}
       </nav>
       <div class="header__cta">
-        <a class="btn btn--ghost" href={b.phoneHref}>{b.phoneDisplay}</a>
+        <a class="btn btn--ghost" href={b.phoneHref}>Click Here {b.phoneDisplay}</a>
         <a class="btn btn--yellow" href="/contact/">Free Estimate</a>
       </div>
       <details class="menu">
@@ -138,7 +138,7 @@ const current = (h: string) => (path.startsWith(h) || (h === '/services/' && ser
     <div class="wrap footer__grid">
       <div>
         <Image class="footer__logo" src={logo} alt={b.legalName} width={288} />
-        <p>A family-owned asphalt paving company serving Southeast Michigan for over {b.years} years, built on hard work and honesty. Owner supervised on every jobsite.</p>
+        <p>A family-owned asphalt paving company serving Michigan for over {b.years} years, built on hard work and honesty. Owner supervised on every jobsite.</p>
         <ul class="pay" aria-label="Payment accepted">{b.payments.map((p) => <li>{p}</li>)}</ul>
       </div>
       <div>

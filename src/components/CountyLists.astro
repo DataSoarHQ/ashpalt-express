@@ -11,7 +11,7 @@ const n = (k: number) => `${k} ${k === 1 ? 'community' : 'communities'} served`;
     {counts && <p class="county__count">{n(first.towns.length)}</p>}
     <ul>{first.towns.map((t) => <li data-town={t.name}><a href={href(t.slug)}>{t.name}</a></li>)}</ul>
   </div>
-  {[rest.slice(0, 2), rest.slice(2)].map((col) => (
+  {[rest.slice(0, 3), rest.slice(3)].map((col) => (
     <div class="county__rest">
       {col.map((c) => (
         <div class="county county--small">
