@@ -2,14 +2,14 @@
 // Service area block used on the home, services and about pages.
 import TownChecker from './TownChecker.astro';
 import CountyLists from './CountyLists.astro';
-const { dark = true } = Astro.props;
+const { dark = true, region = 'Southeast Michigan' } = Astro.props;
 ---
 <section class:list={['section', dark ? 'section--dark' : 'section--alt']} id="areas">
   <div class="wrap">
     <div class="split">
       <div>
         <span class="eyebrow">Service Areas</span>
-        <h2>Proudly Serving Southeast Michigan</h2>
+        <h2>Proudly Serving {region}</h2>
         <p class="lede">Asphalt Express LLC is your local asphalt paving and maintenance expert, serving communities across Oakland, Livingston, Wayne and Macomb Counties. Our crews deliver the same quality of workmanship to residential and commercial customers throughout the region.</p>
       </div>
       <TownChecker />

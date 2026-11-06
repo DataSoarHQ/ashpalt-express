@@ -45,16 +45,16 @@ export const nav = [
 // Short card text for each service, from the original home page.
 export const serviceCards: Record<string, { text: string; img: string }> = {
   'asphalt-paving': { text: 'Professional asphalt paving for driveways, parking lots and private roads, using quality materials and expert installation.', img: 'paving_0' },
-  'commercial-parking-lots': { text: 'Commercial parking lot paving, repair and maintenance for businesses of every size, scheduled around your operations.', img: 'commercial_0' },
+  'commercial-parking-lots': { text: 'Commercial parking lot paving, repair and maintenance for businesses of every size, scheduled around your operations.', img: 'commercial_thumb' },
   'sealcoating-maintenance': { text: 'Sealcoating and preventive maintenance that protects your asphalt and extends the life of the surface.', img: 'sealcoating_0-v2' },
   'asphalt-resurfacing': { text: 'Restore a worn or damaged surface to like-new condition without the cost of a full replacement.', img: 'resurfacing_0' },
   'residential-paving': { text: 'Driveways, walkways and private roads built for homes, adding curb appeal and lasting function.', img: 'residential_0' },
-  'asphalt-millings': { text: 'Recycled asphalt pavement millings, a durable and affordable surface for drives, yards and private roads.', img: 'millings_0-v2' },
-  'removal-replacement': { text: 'When a surface is past repair, we remove it completely and install new asphalt on a properly prepared base.', img: 'removal_0' },
+  'asphalt-millings': { text: 'Recycled asphalt pavement millings, a durable and affordable surface for drives, yards and private roads.', img: 'millings_thumb' },
+  'removal-replacement': { text: 'When a surface is past repair, we remove it completely and install new asphalt on a properly prepared base.', img: 'removal_0-v2' },
   'parking-lot-repair': { text: 'Potholes, cracks and failed sections repaired quickly, so your lot stays safe and your business keeps running.', img: 'repair_0' },
 };
 
-export const counties = ['Oakland', 'Livingston', 'Wayne', 'Macomb', 'Washtenaw', 'Genesee'].map((name) => ({
+export const counties = ['Oakland', 'Livingston', 'Wayne', 'Macomb', 'Washtenaw', 'Genesee', 'Shiawassee'].map((name) => ({
   name,
   towns: towns.filter((t) => t.county === name),
 }));

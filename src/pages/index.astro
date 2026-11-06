@@ -19,13 +19,13 @@ const why = [
   { h: 'Residential and Commercial', p: 'From a single driveway to a full commercial parking lot, the same crew and the same standard of workmanship.' },
 ];
 ---
-<Base title="Asphalt Paving Contractor in SE Michigan | Asphalt Express" description={`Family-owned asphalt paving contractor serving SE Michigan for ${b.years}+ years. Paving, sealcoating, resurfacing, parking lots. Free estimates: ${b.phoneDisplay}.`}>
+<Base title="Asphalt Paving Contractor in Michigan | Asphalt Express" description={`Family-owned asphalt paving contractor serving Michigan for ${b.years}+ years. Paving, sealcoating, resurfacing, parking lots. Free estimates: ${b.phoneDisplay}.`}>
   <section class="hero">
     <div class="wrap hero__in">
       <div>
         <span class="eyebrow">Quality Paving &amp; Unbeatable Service</span>
-        <h1>Southeast Michigan’s Trusted Asphalt Paving Contractor</h1>
-        <p class="hero__lead">Over {b.years} years of asphalt paving, commercial parking lots, sealcoating, resurfacing and parking lot repair across Southeast Michigan. Family owned, owner supervised on every jobsite, and free estimates on every service.</p>
+        <h1>Michigan’s Trusted Asphalt Paving Contractor</h1>
+        <p class="hero__lead">Over {b.years} years of asphalt paving, commercial parking lots, sealcoating, resurfacing and parking lot repair across Michigan. Family owned, owner supervised on every jobsite, and free estimates on every service.</p>
         <ul class="checks">
           <li>Free Estimates</li>
           <li>Residential &amp; Commercial</li>
@@ -33,11 +33,11 @@ const why = [
         </ul>
         <div class="actions">
           <a class="btn btn--yellow" href="#estimate">Get Your Free Estimate</a>
-          <a class="btn btn--ghost" href={b.phoneHref}>{b.phoneDisplay}</a>
+          <a class="btn btn--ghost" href={b.phoneHref}>Click Here {b.phoneDisplay}</a>
         </div>
       </div>
       <div class="hero__art">
-        <Image src={photo('hero_img1')} alt="Asphalt Express paver laying a fresh asphalt driveway in Southeast Michigan" widths={[480, 800, 1200]} sizes="(max-width: 900px) 92vw, 46vw" loading="eager" fetchpriority="high" />
+        <Image src={photo('hero_img1')} alt="Asphalt Express paver laying a fresh asphalt driveway in Michigan" widths={[480, 800, 1200]} sizes="(max-width: 900px) 92vw, 46vw" loading="eager" fetchpriority="high" />
         <Image class="hero__inset" src={photo('hero_img2')} alt="Asphalt Express crew laying hot mix asphalt" widths={[300, 500]} sizes="(max-width: 900px) 34vw, 20vw" loading="eager" />
         <p class="hero__badge"><span class="stars" aria-hidden="true">★★★★★</span><strong>{b.rating} on Google</strong>{b.reviewCount} customer reviews</p>
       </div>
@@ -95,7 +95,7 @@ const why = [
     </div>
   </section>
 
-  <Areas />
+  <Areas region="Michigan" />
   <Reviews />
   <Gbp />
 
@@ -109,7 +109,7 @@ const why = [
           <li><span>Phone</span><a href={b.phoneHref}>{b.phoneDisplay}</a></li>
           <li><span>Email</span><a href={`mailto:${b.email}`}>{b.email}</a></li>
           <li><span>Based in</span><span>{b.street}, {b.city}, {b.region} {b.zip}</span></li>
-          <li><span>Serving</span><span>{towns.length} communities in Southeast Michigan</span></li>
+          <li><span>Serving</span><span>{towns.length} communities in Michigan</span></li>
         </ul>
       </div>
       <QuoteForm />
